@@ -1,0 +1,1143 @@
+{
+  "KillAura": {
+    "state": false,
+    "bind": 47,
+    "render": true,
+    "values": {
+      "Aim Range": 4.5,
+      "Attack Range": 3.38,
+      "Swing": 0,
+      "Move Fix": 2,
+      "Pattern": 0,
+      "CPS": 12,
+      "Randomization": 1.5,
+      "Autoblock": 5,
+      "Blink Autoblock Mode": 1,
+      "Block Range": 4.0,
+      "Interact": true,
+      "Render Blocking": true,
+      "Rotation Mode": 1,
+      "Rotation Randomization": false,
+      "Min Rotation Speed": 180.0,
+      "Max Rotation Speed": 180.0,
+      "Check Hittable": false,
+      "Keep Sprint": true,
+      "Ray Cast": false,
+      "Disable on Scaffold": true,
+      "Disable on Flight": true,
+      "Disable on Eat": false,
+      "Disable on Block": false,
+      "Sort": 2,
+      "Killaura Mark Mode": 2,
+      "Display": 1
+    }
+  },
+  "Velocity": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Vertical": 0,
+      "Horizontal": 0,
+      "Velocity Tick": 0,
+      "Delay Till Ground Strafe": false,
+      "Only Ground": false,
+      "No Fire": true,
+      "Display": 0
+    }
+  },
+  "AntiFireball": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "Criticals": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Vulcan Timer": true,
+      "Only Ground": true,
+      "Display": 0
+    }
+  },
+  "Hitbox": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Expand": 0.1
+    }
+  },
+  "Disabler": {
+    "state": false,
+    "bind": 44,
+    "render": true,
+    "values": {
+      "Mode": 0,
+      "Hypixel Fast Fall": false,
+      "Hypixel Reach": false,
+      "Verus Only Combat": false,
+      "Verus Scaffold Check": true,
+      "Verus OmniSprint Check": true,
+      "Verus Fly Check": false,
+      "Vulcan Sprint Check": false,
+      "Vulcan Scaffold Limit Check": false,
+      "MMC Crits": false,
+      "Old Disablers": false,
+      "Spectator Spoof": false,
+      "Riding Spoof": false,
+      "Old Vulcan Strafe": false,
+      "Display": 0
+    }
+  },
+  "PingSpoof": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Outbound": true,
+      "Inbound": true,
+      "Delay": 200
+    }
+  },
+  "ClientSpoofer": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "MultiAction": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "Phase": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Clip Offset": 1.0
+    }
+  },
+  "Regen": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Packets": 2.0,
+      "Health": 20.0
+    }
+  },
+  "Reach": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Min Reach": 3.0,
+      "Max Reach": 4.0,
+      "Chance": 1.0
+    }
+  },
+  "Autoclicker": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Target CPS": 11,
+      "Randomization Amount": 1.5,
+      "Randomization Pattern": 0,
+      "Only Sword": false,
+      "Autoblock": 0,
+      "Block On Mouse Down": true,
+      "Block On Danger Only": false,
+      "Trigger Bot": false,
+      "Display": 0
+    }
+  },
+  "AimAssist": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Lower Sensitivity On Target": true,
+      "Lowered Sensitity Percentage": 0.6,
+      "Dynamic Acceleration": true,
+      "Acceleration Speed": 1.3,
+      "Inside Nudge": true,
+      "AimBot": false,
+      "AimBot Speed": 20.0,
+      "AimBot FOV": 80.0,
+      "Flick": true,
+      "Flick Threshold": 120.0,
+      "Only Mouse Down": true,
+      "Only Combat": true
+    }
+  },
+  "AutoTool": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "No Combat": true,
+      "Switch Delay": 90,
+      "Spoof Item": false
+    }
+  },
+  "Backtrack": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Max Delay": 4,
+      "Backtrack ticks": 20
+    }
+  },
+  "LegitScaffold": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Sneak Time": 60,
+      "Only Ground": true,
+      "Hold Sneak": false
+    }
+  },
+  "FakeLag": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Lag Amount": 200,
+      "FakeLag": 0
+    }
+  },
+  "RealLag": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Lag Ticks": 5,
+      "Reversed": false,
+      "Reversed Blink": false
+    }
+  },
+  "SilentHitbox": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Range": 4.5,
+      "FOV": 10,
+      "FOV Render": false,
+      "Expand": 0.3,
+      "Only Mouse Down": true,
+      "Only Combat": true
+    }
+  },
+  "SilentScaffold": {
+    "state": false,
+    "bind": 56,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "LegitNofall": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Silent Aim": true,
+      "Switch to Item": true,
+      "Minimum fall dist": 3.0
+    }
+  },
+  "Wtap": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Wtap": 0
+    }
+  },
+  "JumpReset": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Chance": 1.0
+    }
+  },
+  "KeepSprint": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Defensive Motion": 1.0,
+      "Offensive Motion": 1.0,
+      "Chance": 100.0
+    }
+  },
+  "Clutch": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Search Distance": 6.0,
+      "Toggle Mode": 0
+    }
+  },
+  "Sprint": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "OmniSprint": false
+    }
+  },
+  "Speed": {
+    "state": false,
+    "bind": 19,
+    "render": true,
+    "values": {
+      "Mode: ": 11,
+      "Vanilla Speed": 1.0,
+      "Vanilla Only Ground": false,
+      "Hypixel Semi Strafe": false,
+      "Hypixel Test": false,
+      "Hypixel Glide": false,
+      "NoSlow when Speed": true,
+      "Jump Fix": true
+    }
+  },
+  "NoSlow": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Block": 2,
+      "Eat": 0,
+      "Potion": 0,
+      "Bow": 0,
+      "Forward Multiplier": 1.0,
+      "Strafe Multiplier": 1.0,
+      "Sprint": true
+    }
+  },
+  "Flight": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 1,
+      "Fly Vanilla Speed": 3.0,
+      "Fireball Fly Pitch": 70.0
+    }
+  },
+  "InvMove": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Cancel Inventory Open": true,
+      "Hypixel": true
+    }
+  },
+  "Jesus": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "LongJump": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Speed": 5.0,
+      "Display": 0
+    }
+  },
+  "SafeWalk": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "In Air": false,
+      "Only Over Edge": true,
+      "Avoid During Jump": true
+    }
+  },
+  "Spider": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Speed": 0.2,
+      "Display": 0
+    }
+  },
+  "Step": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Timer": 1.0
+    }
+  },
+  "Strafe": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Strength": 100.0
+    }
+  },
+  "TargetStrafe": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Distance": 1.8,
+      "Hold Space": false,
+      "Fall Check": true,
+      "Wall Check": true,
+      "Speed Only": true,
+      "Only On Strafe": false
+    }
+  },
+  "CustomSpeed": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Move": 0.2,
+      "Mult": 1.0,
+      "Move5": 0.05,
+      "Mult5": 1.0,
+      "Y0": 0.0,
+      "Y1": 0.0,
+      "Y2": 0.0,
+      "Y3": 0.0,
+      "Y4": 0.0,
+      "Y5": 0.0,
+      "Y6": 0.0,
+      "Y7": 0.0,
+      "Y8": 0.0,
+      "Not On Damage": true
+    }
+  },
+  "CustomStrafe": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Strength": 100.0,
+      "Ground": true,
+      "Tick1": true,
+      "Tick2": true,
+      "Tick3": true,
+      "Tick4": true,
+      "Tick5": true,
+      "Tick6": true,
+      "Tick7": true,
+      "Tick8": true,
+      "Tick9": true,
+      "Tick10": true,
+      "Tick11": true
+    }
+  },
+  "CombatStrafe": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "AntiBot": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Colored name": true
+    }
+  },
+  "Killsults": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "Performance": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Chunk Updates": 1,
+      "MemoryFix": false
+    }
+  },
+  "RemoveEffect": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Slowness": false,
+      "MiningFatigue": false,
+      "Blindness": false,
+      "Weakness": false,
+      "Wither": false,
+      "Poison": false,
+      "WaterBreathing": false
+    }
+  },
+  "RichPresence": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Display": 0
+    }
+  },
+  "Targets": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Teams": false,
+      "Players": true,
+      "Animals": false,
+      "Mobs": false,
+      "Friends": false
+    }
+  },
+  "Test": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Delay": 40
+    }
+  },
+  "Tweaks": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "No Achievement": true,
+      "No Block Hit Delay": true,
+      "No Click Delay": true,
+      "No Render Skins": false,
+      "Don\u0027t Tick invisibles": false,
+      "No XP Bar": false,
+      "No Chat Background": false,
+      "Infinite Chat": true,
+      "FullBright": true,
+      "No Boss Health": false,
+      "No Jump Delay": true,
+      "Jump Delay Ticks": 0,
+      "Exit Gui Fix": true,
+      "No Pumpkin": false,
+      "Custom Title": false
+    }
+  },
+  "Antivoid": {
+    "state": true,
+    "bind": 33,
+    "render": true,
+    "values": {
+      "Mode: ": 1,
+      "Vulcan Distance": 5.1,
+      "Display": 0
+    }
+  },
+  "Blink": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Outbound": true,
+      "Inbound": false,
+      "Pulse": false,
+      "Delay": 300,
+      "Disable On Attack": false
+    }
+  },
+  "FastEat": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "FreeCam": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "FreeLook": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "MCF": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "NoFall": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "Timer": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Speed": 1.5
+    }
+  },
+  "Hud": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Arraylist": true,
+      "Arraylist Mode": 0,
+      "Array Reset Position": false,
+      "Modern Style": 0,
+      "Modern Sidebar": 0,
+      "Classic Arraylist Font": 0,
+      "Arraylist Background": true,
+      "Tags": true,
+      "Tags Style": 0,
+      "Watermark": true,
+      "WaterMark": 0,
+      "Notifications": true,
+      "Rounded Notifications": true,
+      "FPS Counter": true,
+      "BPS Counter": true,
+      "Scaffold Counter": true,
+      "ItemSpoof indicator": true,
+      "Toggle Sound": false,
+      "Client Theme": 3,
+      "Custom Start R": 0,
+      "Custom Start G": 0,
+      "Custom Start B": 255,
+      "Custom End R": 0,
+      "Custom End G": 255,
+      "Custom End B": 255
+    }
+  },
+  "Animations": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Block Animation": 0,
+      "Animation Speed": 1.0,
+      "Spin Speed": 0.5,
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "Display": 0
+    }
+  },
+  "BasicESP": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Item ESP": true,
+      "Line Width": 1.0,
+      "Yaw Rotate": false,
+      "Outline": true,
+      "Filled": false,
+      "Color": 1,
+      "Red": 0,
+      "Green": 255,
+      "Blue": 255,
+      "Alpha": 100,
+      "Color On Damage": true
+    }
+  },
+  "TargetHUD": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Rounded": false,
+      "Reset Position": false,
+      "Follow Target": false
+    }
+  },
+  "BedESP": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Range": 15,
+      "Rate": 0.4
+    }
+  },
+  "Camera": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "No Hurt Cam": true,
+      "No Clip": true,
+      "No Fire": false
+    }
+  },
+  "Cape": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Cape": 1,
+      "Display": 0
+    }
+  },
+  "Chams": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Color": 0,
+      "Red": 116,
+      "Green": 202,
+      "Blue": 255
+    }
+  },
+  "ClickGUI": {
+    "state": false,
+    "bind": 54,
+    "render": true,
+    "values": {
+      "Mode: ": 0
+    }
+  },
+  "ChestESP": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Line Width": 1.0,
+      "Color": 1,
+      "Red": 0,
+      "Green": 255,
+      "Blue": 255,
+      "Alpha": 180
+    }
+  },
+  "FPSCounter": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Background": 0,
+      "Rounded": true,
+      "Reset Position": false,
+      "Background Width": 50,
+      "Background Height": 18,
+      "Background Rounded Radius": 6
+    }
+  },
+  "ItemPhysics": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "NameTags": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Draw Armor": true,
+      "Draw Health": true
+    }
+  },
+  "Projectiles": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Color": 1,
+      "Red": 116,
+      "Green": 202,
+      "Blue": 255,
+      "Alpha": 100
+    }
+  },
+  "Scoreboard": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "No Scoreboard": false,
+      "Rounded": false,
+      "Reset Position": false,
+      "Text Shadow": false,
+      "Line Numbers": true,
+      "Font": 0,
+      "Font Scale": 18
+    }
+  },
+  "SessionInfo": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Pos X": 8.0,
+      "Pos Y": 160.0,
+      "Alpha": 170,
+      "Rounded": false,
+      "Reset Position": false,
+      "Font": 0
+    }
+  },
+  "Ambience": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Time": 2,
+      "Custom Time": 5,
+      "Weather": 1,
+      "Weather Strength": 0.0,
+      "Display": 0
+    }
+  },
+  "Tracers": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Color": 0,
+      "Red": 0,
+      "Green": 255,
+      "Blue": 255,
+      "Alpha": 200
+    }
+  },
+  "XRay": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "Zoom": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Slow Sensitivity": false,
+      "Smooth Speed": 0.1
+    }
+  },
+  "XYZCounter": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Background": 0,
+      "Rounded": true,
+      "Reset Position": false,
+      "Background Width": 110,
+      "Background Height": 18,
+      "Background Rounded Radius": 6
+    }
+  },
+  "KeyStrokes": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Client Theme": true,
+      "Alpha": 90,
+      "Reset Position": false
+    }
+  },
+  "BPSCounter": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Background": 0,
+      "Rounded": true,
+      "Reset Position": false,
+      "Custom Background Width": 50,
+      "Custom Background Height": 18,
+      "Custom Background Rounded Radius": 6
+    }
+  },
+  "AntiCheat": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Check - Scaffold Limit": true,
+      "Check - Tower Limit": true,
+      "Check - Autoblock": true,
+      "Check - NoSlow Limit": true,
+      "Target - Only Suspect": false,
+      "Alert - VL Limit": 40,
+      "Alert - All Flags": true,
+      "Alert - Debug": false
+    }
+  },
+  "AutoDisable": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Disable KillAura": false,
+      "Disable InvManager": false,
+      "Disable Stealer": false,
+      "Disable Flight": false,
+      "Disable Scaffold": false,
+      "Disable Timer": false
+    }
+  },
+  "AutoGapple": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Health": 10.0,
+      "Delay": 100
+    }
+  },
+  "AutoGG": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "AutoGG Message": "GG"
+    }
+  },
+  "AutoLogin": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Delay (s)": 0
+    }
+  },
+  "AutoPlay": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Hypixel": 0,
+      "Display": 0
+    }
+  },
+  "AutoPot": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Health": 10.0,
+      "Delay": 100,
+      "Health Potion": true,
+      "Speed Potion": true,
+      "Soup": false,
+      "No KillAura": true,
+      "No Move": false
+    }
+  },
+  "AutoSword": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "AntiHarm": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "AntiCactus": false,
+      "AntiLava": false,
+      "AntiAfk": false
+    }
+  },
+  "AntiStaff": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Server": 1,
+      "Notification": true,
+      "Chat Notification": true,
+      "Leave on Detect": false,
+      "Display": 0
+    }
+  },
+  "LagbackChecker": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Disable Modules": false
+    }
+  },
+  "NameProtect": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "TNTHelper": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
+  },
+  "Float": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "spoofGround": true
+    }
+  },
+  "SumoBot": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Server": 0
+    }
+  },
+  "Scaffold": {
+    "state": false,
+    "bind": 44,
+    "render": true,
+    "values": {
+      "Rotation Mode": 5,
+      "Keep Rotation Length": 1,
+      "Swing": 0,
+      "Placement Check": 0,
+      "Placement Timing": 1,
+      "Search Distance": 6,
+      "Expand Amount": 0.0,
+      "Tower Expand Amount": 0.0,
+      "Sprint Mode": 3,
+      "Hypixel Jump Lowhop": true,
+      "Same Y": 3,
+      "Speed Modifier": 1.0,
+      "Timer": 1.0,
+      "Safewalk": 3,
+      "Movement Correction": false,
+      "Tower Mode": 0,
+      "Tower No Move": false,
+      "Block Pick Mode": 0,
+      "Spoof Item Slot": true,
+      "Display": 1
+    }
+  },
+  "Breaker": {
+    "state": false,
+    "bind": 45,
+    "render": true,
+    "values": {
+      "Bypass": 1,
+      "Radius": 4.5,
+      "Sort": 0,
+      "Switch Delay": 50,
+      "Target Switch Delay": 50,
+      "FastBreak Percent": 1.0,
+      "Hypixel Faster": false,
+      "No Combat": false,
+      "Display": 0
+    }
+  },
+  "InvManager": {
+    "state": false,
+    "bind": 35,
+    "render": true,
+    "values": {
+      "Delay": 2,
+      "Sword slot": 0,
+      "Stack slot": 8,
+      "Axe slot": 4,
+      "Pickaxe slot": 5,
+      "Shovel slot": 6,
+      "Gapple slot": 7
+    }
+  },
+  "Stealer": {
+    "state": false,
+    "bind": 35,
+    "render": true,
+    "values": {
+      "Open Delay Max": 100.0,
+      "Open Delay Min": 100.0,
+      "Steal Delay Max": 75.0,
+      "Steal Delay Min": 50.0,
+      "Auto Close": true,
+      "Auto Close Delay Max": 80.0,
+      "Auto Close Delay Min": 80.0,
+      "No Filter": true
+    }
+  },
+  "ChestAura": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Radius": 4.5,
+      "Switch Delay": 50,
+      "Only Ground": false,
+      "Render Chests": true
+    }
+  },
+  "FastPlace": {
+    "state": true,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "PlaceDelay": 1
+    }
+  },
+  "SpeedMine": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode: ": 0,
+      "Percent": 0.8,
+      "Speed": 1.0
+    }
+  }
+}
