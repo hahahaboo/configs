@@ -149,7 +149,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Vulcan",
+        "Mode": "TPBack",
         "MaxFallDistance": 4.51,
         "MotionFlag-MotionY": 1.0,
         "OnlyVoid": true
@@ -326,7 +326,7 @@
         "ThroughWall": true,
         "Surroundings": false,
         "SpoofItem": true,
-        "RenderSpoof": false,
+        "RenderSpoof": true,
         "Visual :": "",
         "ShowProcess": true,
         "Render-Pos": true,
@@ -362,11 +362,11 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Blink-Mode": "All",
-        "Render": false,
-        "StopServerPacket": false,
-        "Pulse": false,
-        "PulseDelay": 1000
+        "Blink-Mode": "Movement",
+        "Render": true,
+        "StopServerPacket": true,
+        "Pulse": true,
+        "PulseDelay": 560
       }
     },
     "BlockFinder": {
@@ -606,7 +606,7 @@
     },
     "Criticals": {
       "state": false,
-      "keybind": 47,
+      "keybind": 0,
       "array": true,
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
@@ -759,7 +759,7 @@
         "VulcanMinBuff": 5,
         "NoC0BPacket": false,
         "VulcanStrafe-NoBadPacket": false,
-        "VulcanStrafe-PacketDelay": 4
+        "VulcanStrafe-PacketDelay": 3
       }
     },
     "ESP": {
@@ -865,17 +865,17 @@
     },
     "Flight": {
       "state": false,
-      "keybind": 0,
+      "keybind": 48,
       "array": true,
-      "autodisable": "FLAG",
+      "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "AAC1.9.10",
+        "Mode": "Vulcan3",
         "MotionReset": true,
         "ResetY": false,
         "Mark": "Up",
-        "FakeDamage": true,
-        "ViewBobbing": false,
+        "FakeDamage": false,
+        "ViewBobbing": true,
         "ViewBobbingYaw": 0.1,
         "AAC1.9.10-Speed": 0.3,
         "AAC3.0.5-Fast": true,
@@ -1561,13 +1561,13 @@
       "values": {}
     },
     "NoFall": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Vulcan",
+        "Mode": "Packet1",
         "NoVoid": true,
         "SilentRotation": false,
         "TurnSpeed": 10,
@@ -1877,18 +1877,18 @@
         "SafeWalk": false,
         "Zitter": false,
         "MaxRotationSpeed": 90,
-        "MinRotationSpeed": 80,
+        "MinRotationSpeed": 70,
         "MaxPlaceDelay": 100,
         "MinPlaceDelay": 5,
         "ExpandLength": 1,
         "OmniDirectionalExpand": false,
         "Timer": 1.0,
         "TowerTimer": 1.0,
-        "Eagle": "Off",
+        "Eagle": "Silent",
         "BlocksToEagle": 2,
-        "EagleEdgeDistance": 0.2,
+        "EagleEdgeDistance": 0.25,
         "HitableCheck": "OFF",
-        "RenderSpoof": true
+        "RenderSpoof": false
       }
     },
     "Scaffold2": {
@@ -1963,7 +1963,7 @@
     },
     "Speed": {
       "state": false,
-      "keybind": 0,
+      "keybind": 19,
       "array": true,
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
@@ -2029,8 +2029,8 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Collide",
-        "Motion": 0.42
+        "Mode": "Vulcan",
+        "Motion": 0.35
       }
     },
     "Sprint": {
@@ -2102,7 +2102,7 @@
     },
     "Step": {
       "state": false,
-      "keybind": 48,
+      "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -2192,7 +2192,7 @@
       }
     },
     "TargetStrafe": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -2203,7 +2203,7 @@
         "LineWidth": 1.45,
         "RadiusMode": "Strict",
         "Radius": 1.47,
-        "OnlyOnGround": false,
+        "OnlyOnGround": true,
         "HoldSpace": false,
         "OnlySpeed": true,
         "OnlyFlight": false
