@@ -1,4 +1,7 @@
 {
+  "macros": {
+    "macros": []
+  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -64,9 +67,9 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Tab": false,
+        "Tab": true,
         "TabMode": "Contains",
-        "EntityID": false,
+        "EntityID": true,
         "Color": false,
         "LivingTime": false,
         "LivingTimeTicks": 40,
@@ -75,27 +78,27 @@
         "InvalidGround": false,
         "Swing": false,
         "Health": false,
-        "Derp": false,
-        "WasInvisible": false,
+        "Derp": true,
+        "WasInvisible": true,
         "ValidName": false,
-        "HiddenName": false,
+        "HiddenName": true,
         "Armor": false,
         "Ping": false,
         "NeedHit": false,
-        "NoClip": false,
+        "NoClip": true,
         "CzechMatrix": false,
         "PingCheck": true,
         "GamemodeCheck": true,
         "ReusedEntityId": false,
         "SpawnInCombat": false,
-        "DuplicateInWorld": false,
-        "DuplicateInTab": false,
+        "DuplicateInWorld": true,
+        "DuplicateInTab": true,
         "DuplicateCompareMode": "OnTime",
         "FastDamage": false,
         "FastDamageTicks": 5,
         "RemoveFromWorld": false,
         "Remove-Interval": 20,
-        "Debug": false,
+        "Debug": true,
         "AlwaysInRadius": false,
         "AlwaysInRadiusBlocks": 20.0,
         "AlwaysInRadiusRemove": false,
@@ -149,7 +152,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "TPBack",
+        "Mode": "Vulcan",
         "MaxFallDistance": 4.51,
         "MotionFlag-MotionY": 1.0,
         "OnlyVoid": true
@@ -1307,7 +1310,7 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Range": 3.2,
+        "Range": 3.3,
         "NoWall": false,
         "SwingRange": 4.45,
         "DiscoverRange": 5.0,
@@ -1330,21 +1333,21 @@
         "OnSwording": false,
         "Bypass": "",
         "Swing": "Normal",
-        "AttackTiming": "All",
+        "AttackTiming": "Pre",
         "FixMovement": "Off",
         "AlwaysAttack": true,
         "AutoBlock": "InteractSwitch",
         "CancelAttackWhenClickBlock": false,
-        "AutoBlockRange": 3.25,
+        "AutoBlockRange": 3.9,
         "Rotation": "",
         "RotationMode": "Smooth",
         "SilentRotation": true,
         "MaxTurnSpeed": 90,
-        "MinTurnSpeed": 55,
+        "MinTurnSpeed": 70,
         "RotationReverse": false,
         "RotationReverseTick": 5,
         "KeepDirection": true,
-        "KeepDirectionTick": 5,
+        "KeepDirectionTick": 3,
         "RandomCenter": false,
         "RandomRange": 0.0,
         "MoreBypass": "",
@@ -1561,7 +1564,7 @@
       "values": {}
     },
     "NoFall": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -2202,7 +2205,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.45,
         "RadiusMode": "Strict",
-        "Radius": 1.47,
+        "Radius": 1.7,
         "OnlyOnGround": true,
         "HoldSpace": false,
         "OnlySpeed": true,
@@ -2340,8 +2343,5 @@
       "trigger": "TOGGLE",
       "values": {}
     }
-  },
-  "macros": {
-    "macros": []
   }
 }
