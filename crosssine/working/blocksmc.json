@@ -1,7 +1,4 @@
 {
-  "macros": {
-    "macros": []
-  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -1018,7 +1015,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Legit",
+        "Mode": "Auto",
         "HealthPercent": 75.0,
         "MinDelay": 75,
         "MaxDelay": 125,
@@ -1027,7 +1024,7 @@
         "WaitRegen": true,
         "InvCheck": false,
         "NoAbsorption": true,
-        "Alert": false
+        "Alert": true
       }
     },
     "Glide": {
@@ -1310,10 +1307,10 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Range": 3.4,
+        "Range": 4.0,
         "NoWall": true,
-        "SwingRange": 4.6,
-        "DiscoverRange": 5.6,
+        "SwingRange": 4.9,
+        "DiscoverRange": 5.75,
         "Fov": false,
         "FOV-Disttance": 180.0,
         "CPS": "",
@@ -1327,7 +1324,7 @@
         "SwitchDelay": 1000,
         "LimitedMultiTargets": 0,
         "LimitUse": "",
-        "BlinkCheck": false,
+        "BlinkCheck": true,
         "NoScaffold": true,
         "NoFly": true,
         "OnSwording": false,
@@ -1336,9 +1333,9 @@
         "AttackTiming": "Pre",
         "FixMovement": "Off",
         "AlwaysAttack": true,
-        "AutoBlock": "InteractSwitch",
+        "AutoBlock": "Vanilla",
         "CancelAttackWhenClickBlock": false,
-        "AutoBlockRange": 4.0,
+        "AutoBlockRange": 4.5,
         "Rotation": "",
         "RotationMode": "Smooth",
         "SilentRotation": true,
@@ -2205,7 +2202,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.0,
         "RadiusMode": "Strict",
-        "Radius": 1.7,
+        "Radius": 2.0,
         "OnlyOnGround": false,
         "HoldSpace": false,
         "OnlySpeed": true,
@@ -2343,5 +2340,8 @@
       "trigger": "TOGGLE",
       "values": {}
     }
+  },
+  "macros": {
+    "macros": []
   }
 }
