@@ -34,7 +34,7 @@ pingabuse might get kick
 
 ### slack/testing/blocksmc : 
 
-**version** : [slack5.2](https://github.com/DGVPSH/SlackOpen/releases/download/B5.2/Slack.zip)
+**version** : [slack5.3](https://github.com/DGVPSH/SlackOpen/releases/download/B5.3/Slack.zip)
 
 **note** : 
 
