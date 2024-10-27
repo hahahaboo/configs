@@ -12,13 +12,13 @@ some config might not work / ban
 
 bind Disabler and Scaffold together
 
+bind Keepsprint and Killaura together
+
 ### crosssine/working/vulcan : 
 
 **version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
 
 **note** : 
-
-bind Disabled and Killaura together
 
 Speed might get kick
 
