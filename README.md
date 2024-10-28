@@ -39,3 +39,11 @@ pingabuse might get kick
 **note** : 
 
 bind Disabler and Scaffold together
+
+###  rise/working/vulcan291 :
+
+**version** : [rise latest update](https://vantage.rip)
+
+**note** :
+
+if you are dumb with it it will ban
