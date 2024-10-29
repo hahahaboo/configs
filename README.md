@@ -14,7 +14,7 @@ bind Disabler and Scaffold together
 
 bind Keepsprint and Killaura together
 
-### crosssine/working/vulcan : 
+### crosssine/working/supercraft : 
 
 **version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
 
@@ -34,8 +34,20 @@ pingabuse might get kick
 
 ### slack/testing/blocksmc : 
 
-**version** : [slack5.3](https://github.com/DGVPSH/SlackOpen/releases/download/B5.3/Slack.zip)
+**version** : [slack 5.3](https://github.com/DGVPSH/SlackOpen/releases/download/B5.3/Slack.zip)
 
 **note** : 
 
 bind Disabler and Scaffold together
+
+### FDP/testing/blocksmc : 
+
+**version** : [FDP b8](https://github.com/SkidderMC/FDPClient/releases/download/b8/FDPClient-b8.jar)
+
+**note** : 
+
+disable Antivoid when fall long distance
+
+Fucker is Breaker/Bedaura
+
+kllaura silent flag sometime with Speed
