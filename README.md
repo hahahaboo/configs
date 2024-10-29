@@ -50,4 +50,4 @@ disable Antivoid when fall long distance
 
 Fucker is Breaker/Bedaura
 
-kllaura silent flag sometime with Speed
+killaura silent flag sometime with Speed
