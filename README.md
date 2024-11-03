@@ -4,6 +4,7 @@ some config for minecraft hacked client
 some config might not work / ban
 
 ## important
+
 ### crosssine/testing/blocksmc : 
 
 **version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
@@ -14,9 +15,9 @@ bind Disabler and Scaffold together
 
 bind Keepsprint and Killaura together
 
-Killaura silent flag some time
+Killaura sometimes silent flag 
 
-longjump(fireball jump) sometime flag/lagback
+longjump(fireball jump) sometimes flag/lagback
 
 ### crosssine/working/supercraft : 
 
@@ -24,7 +25,7 @@ longjump(fireball jump) sometime flag/lagback
 
 **note** : 
 
-Speed might get kick
+Speed might get kick/ban
 
 ### crosssine/testing/kkcraft : 
 
@@ -54,4 +55,4 @@ disable Antivoid when fall long distance
 
 Fucker is Breaker/Bedaura
 
-Killaura silent flag/kick/ban some time
+Killaura sometimes silent flag/kick/ban 
