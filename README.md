@@ -14,7 +14,9 @@ bind Disabler and Scaffold together
 
 bind Keepsprint and Killaura together
 
-Killaura silent flag/kick/ban some time
+Killaura silent flag some time
+
+longjump(fireball jump) sometime flag/lagback
 
 ### crosssine/working/supercraft : 
 
