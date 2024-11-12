@@ -7,7 +7,7 @@ some config might not work / ban
 
 ### crosssine/testing/blocksmc : 
 
-**version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
+**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
 
 **note** : 
 
@@ -21,7 +21,7 @@ longjump(fireball jump) sometimes flag/lagback
 
 ### crosssine/working/supercraft : 
 
-**version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
+**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
 
 **note** : 
 
@@ -29,7 +29,7 @@ Speed might get kick/ban
 
 ### crosssine/testing/kkcraft : 
 
-**version** : [crosssine b40 (last beta)](https://crosssine.github.io/file/CrossSine-BetaBuild.jar)
+**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
 
 **note** : 
 
