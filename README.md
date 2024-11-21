@@ -5,7 +5,7 @@ some config might not work / ban
 
 ## important
 
-### crosssine/testing/blocksmc : 
+### crosssine/working/blocksmc : 
 
 **version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
 
