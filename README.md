@@ -19,21 +19,21 @@ killaura vanilla bolck mode only work 15mins
 
 ### crosssine/working/supercraft : 
 
-**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
+**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
 
 **note** : 
 
 Speed might get kick/ban
 
+killaura sometimes get strafe detect
+
 ### crosssine/testing/kkcraft : 
 
-**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
+**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
 
 **note** : 
 
-pingabuse is backtrack
-
-pingabuse might get kick
+backtrack might get kick/ban
 
 ### slack/testing/blocksmc : 
 
