@@ -7,17 +7,15 @@ some config might not work / ban
 
 ### crosssine/working/blocksmc : 
 
-**version** : [crosssine b40 (old beta)](https://mega.nz/file/SUtXVTBJ#0hr5mXiYLA8lVSx2kb4IK5WvOpkMqt1qIxcSO9QTRRc)
+**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
 
 **note** : 
-
-bind Disabler and Scaffold together
 
 bind Keepsprint and Killaura together
 
 Killaura sometimes silent flag 
 
-longjump(fireball jump) sometimes flag/lagback
+killaura vanilla bolck mode only work 15mins
 
 ### crosssine/working/supercraft : 
 
@@ -44,15 +42,3 @@ pingabuse might get kick
 **note** : 
 
 bind Disabler and Scaffold together
-
-### FDP/testing/blocksmc : 
-
-**version** : [FDP b8](https://github.com/SkidderMC/FDPClient/releases/download/b8/FDPClient-b8.jar)
-
-**note** : 
-
-disable Antivoid when fall long distance
-
-Fucker is Breaker/Bedaura
-
-Killaura sometimes silent flag/kick/ban 
