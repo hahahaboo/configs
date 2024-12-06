@@ -35,7 +35,7 @@ killaura sometimes get strafe detect
 
 backtrack might get kick/ban
 
-### slack/testing/blocksmc : 
+### slack/working/blocksmc : 
 
 **version** : [slack 5.5](https://github.com/DGVPSH/SlackOpen/releases/download/B5.5/Slack.zip)
 
