@@ -4,22 +4,22 @@
     "bind": 47,
     "render": true,
     "values": {
-      "Aim Range": 4.73,
-      "Attack Range": 3.65,
+      "Aim Range": 4.5,
+      "Attack Range": 3.38,
       "Swing": 0,
       "Move Fix": 2,
-      "Pattern": 4,
-      "CPS": 14,
-      "Randomization": 1.5,
+      "Pattern": 2,
+      "CPS": 13,
+      "Randomization": 0.0,
       "Autoblock": 4,
       "Blink Autoblock Mode": 1,
-      "Block Range": 4.0,
-      "Interact": true,
+      "Block Range": 3.55,
+      "Interact": false,
       "Render Blocking": true,
       "Rotation Mode": 1,
       "Rotation Randomization": false,
-      "Min Rotation Speed": 180.0,
-      "Max Rotation Speed": 180.0,
+      "Min Rotation Speed": 170.0,
+      "Max Rotation Speed": 170.0,
       "Check Hittable": false,
       "Keep Sprint": true,
       "Ray Cast": false,
@@ -44,7 +44,8 @@
       "Delay Till Ground Strafe": false,
       "Only Ground": false,
       "No Fire": false,
-      "Display": 0
+      "Display": 0,
+      "Hurt Time Delay": 9
     }
   },
   "AntiFireball": {
@@ -104,14 +105,6 @@
       "Delay": 200
     }
   },
-  "ClientSpoofer": {
-    "state": false,
-    "bind": 0,
-    "render": true,
-    "values": {
-      "Mode: ": 0
-    }
-  },
   "MultiAction": {
     "state": false,
     "bind": 0,
@@ -134,6 +127,25 @@
     "values": {
       "Packets": 2.0,
       "Health": 20.0
+    }
+  },
+  "NoRotate": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Mode": 0
+    }
+  },
+  "PacketCancel": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Cancel COF": false,
+      "Cancel C00": false,
+      "Cancel COB": false,
+      "Cancel C0C": false
     }
   },
   "Reach": {
@@ -308,8 +320,8 @@
     "bind": 19,
     "render": true,
     "values": {
-      "Mode: ": 12,
-      "Vanilla Speed": 1.0,
+      "Mode: ": 11,
+      "Vanilla Speed": 1.02,
       "Vanilla Only Ground": false,
       "Hypixel Semi Strafe": false,
       "Hypixel Test": false,
@@ -342,7 +354,8 @@
       "Fly Vanilla Speed": 3.0,
       "Fireball Fly Pitch": 70.0,
       "Fireball Fly Speed": 2.0,
-      "Fireball Fly Flat Ticks": 20
+      "Fireball Fly Flat Ticks": 20,
+      "Vulcan Ghost Vanilla Speed": 3.0
     }
   },
   "InvMove": {
@@ -470,6 +483,14 @@
     "render": true,
     "values": {}
   },
+  "Custom Motion": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Speed": 0.3
+    }
+  },
   "AntiBot": {
     "state": true,
     "bind": 0,
@@ -525,7 +546,7 @@
     "values": {
       "Teams": false,
       "Players": true,
-      "Animals": true,
+      "Animals": false,
       "Mobs": true,
       "Friends": false
     }
@@ -558,6 +579,14 @@
       "Exit Gui Fix": true,
       "No Pumpkin": true,
       "Custom Title": false
+    }
+  },
+  "NoGuiClose": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Chat Only": false
     }
   },
   "Antivoid": {
@@ -667,7 +696,7 @@
       "Spin Speed": 0.5,
       "X": 0.0,
       "Y": 0.0,
-      "Z": 0.0,
+      "Z": 0.2,
       "Display": 0
     }
   },
@@ -697,7 +726,8 @@
       "Mode: ": 0,
       "Rounded": false,
       "Reset Position": false,
-      "Follow Target": false
+      "Follow Target": false,
+      "Smooth Follow": false
     }
   },
   "BedESP": {
@@ -981,7 +1011,7 @@
   },
   "AutoSword": {
     "state": false,
-    "bind": 0,
+    "bind": 47,
     "render": true,
     "values": {}
   },
@@ -996,7 +1026,7 @@
     }
   },
   "AntiStaff": {
-    "state": false,
+    "state": true,
     "bind": 0,
     "render": true,
     "values": {
@@ -1049,17 +1079,19 @@
     "render": true,
     "values": {
       "Rotation Mode": 4,
+      "Custom Yaw": 180.0,
+      "Custom Pitch": 90.0,
       "Keep Rotation Length": 1,
       "Swing": 0,
       "Placement Check": 0,
       "Placement Timing": 0,
-      "Search Distance": 6,
+      "Search Distance": 4,
       "Expand Amount": 0.0,
       "Tower Expand Amount": 0.0,
-      "Sprint Mode": 3,
+      "Sprint Mode": 0,
       "Hypixel Jump Lowhop": false,
-      "Same Y": 3,
-      "Speed Modifier": 1.05,
+      "Same Y": 5,
+      "Speed Modifier": 1.0,
       "Timer": 1.0,
       "Safewalk": 3,
       "Movement Correction": false,
@@ -1076,7 +1108,7 @@
     "render": true,
     "values": {
       "Bypass": 1,
-      "Radius": 4.5,
+      "Radius": 4.0,
       "Sort": 0,
       "Switch Delay": 50,
       "Target Switch Delay": 50,
@@ -1110,8 +1142,8 @@
       "Steal Delay Max": 75.0,
       "Steal Delay Min": 50.0,
       "Auto Close": true,
-      "Auto Close Delay Max": 80.0,
-      "Auto Close Delay Min": 80.0,
+      "Auto Close Delay Max": 0.0,
+      "Auto Close Delay Min": 0.0,
       "No Filter": true
     }
   },
