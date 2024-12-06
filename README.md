@@ -37,7 +37,7 @@ backtrack might get kick/ban
 
 ### slack/testing/blocksmc : 
 
-**version** : [slack 5.3](https://github.com/DGVPSH/SlackOpen/releases/download/B5.3/Slack.zip)
+**version** : [slack 5.5](https://github.com/DGVPSH/SlackOpen/releases/download/B5.5/Slack.zip)
 
 **note** : 
 
