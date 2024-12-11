@@ -1,4 +1,20 @@
 {
+  "macros": {
+    "macros": [
+      {
+        "key": 44,
+        "command": ".t speed"
+      },
+      {
+        "key": 19,
+        "command": ".speed mode blocksmc"
+      },
+      {
+        "key": 44,
+        "command": ".speed mode ground"
+      }
+    ]
+  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -256,18 +272,18 @@
       }
     },
     "AutoPlace": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Delay": 0.0,
+        "Delay": 21.5,
         "MouseDown": true,
         "Fake-Mouse-Down": false,
         "Up": false,
         "Down": false,
-        "Side": true,
+        "Side": false,
         "NoFly": false,
         "Pitch": false,
         "Pitch-MAX": 0,
@@ -440,7 +456,7 @@
     },
     "BowAimbot": {
       "state": false,
-      "keybind": 34,
+      "keybind": 0,
       "array": false,
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
@@ -455,7 +471,7 @@
     },
     "BowExploit": {
       "state": false,
-      "keybind": 34,
+      "keybind": 0,
       "array": true,
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
@@ -790,14 +806,14 @@
       }
     },
     "FastPlace": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": false,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Tick": 0,
-        "BlockOnly": true
+        "Tick": 1,
+        "BlockOnly": false
       }
     },
     "FastUse": {
@@ -821,7 +837,7 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "BlockFly",
+        "Mode": "Clip",
         "MotionReset": true,
         "ResetY": true,
         "Mark": "Off",
@@ -1083,7 +1099,7 @@
       "keybind": 0,
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Vanilla",
+        "Mode": "Cancel",
         "R": 255,
         "G": 0,
         "B": 0,
@@ -1241,15 +1257,15 @@
       "values": {
         "Range": 3.4,
         "Swing-Range": 4.15,
-        "Discover-Range": 5.0,
+        "Discover-Range": 5.35,
         "Fov": false,
         "FOV-Disttance": 180.0,
         "CPS": "",
         "1.9-Combat-Check": false,
         "CPS-Reduce": false,
         "Add-CPS": 1,
-        "MaxCPS": 12,
-        "MinCPS": 8,
+        "MaxCPS": 14,
+        "MinCPS": 10,
         "Target-Mode": "Switch",
         "Priority": "Distance",
         "Switch-Delay": 995,
@@ -1264,11 +1280,11 @@
         "Fix-Movement": "Off",
         "Always-Attack": true,
         "AutoBlock": "",
-        "Auto-Block": "Fake",
-        "WatchDog-Slow-Down": false,
+        "Auto-Block": "WatchDogBlink",
+        "WatchDog-Slow-Down": true,
         "AutoBlockRange": 3.45,
         "Rotation": "",
-        "RotationMode": "Normal",
+        "RotationMode": "Smooth",
         "SilentRotation": true,
         "MaxTurnSpeed": 80,
         "MinTurnSpeed": 80,
@@ -1727,7 +1743,7 @@
         "CustomCancelSprintPacket": true,
         "CustomMotion": false,
         "CustomMotionSpeed": 1.0,
-        "CustomMotion-SpeedEffect": true,
+        "CustomMotion-SpeedEffect": false,
         "CustomMotionSpeed-SpeedEffect": 0.91,
         "CustomStrafe": false,
         "CustomStrafeSpeed": 0.1,
@@ -1741,10 +1757,10 @@
         "WatchDogDelay": 1,
         "WatchDogBoost": false,
         "WatchDogSilentPosY": false,
-        "WatchDogExtraClick": true,
+        "WatchDogExtraClick": false,
         "WatchDogLowHopMode": "None",
         "WatchDogStopWhenTower": false,
-        "TellyTicks": 0,
+        "TellyTicks": 1,
         "SameY-OnlySpeed": true,
         "Andromeda-Jump": false,
         "StrafeFix": true,
@@ -1760,8 +1776,8 @@
         "MinPlaceDelay": 0,
         "ExpandLength": 1,
         "OmniDirectionalExpand": false,
-        "Timer": 1.05,
-        "TowerTimer": 0.96,
+        "Timer": 1.0,
+        "TowerTimer": 0.94,
         "Eagle": "Off",
         "BlocksToEagle": 0,
         "EagleEdgeDistance": 0.0,
@@ -1776,17 +1792,17 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Legit",
+        "Mode": "GodBridge",
         "Sneak": false,
         "JumpBoost": false,
         "Sprint": true,
-        "RotationSpeed": false,
+        "RotationSpeed": true,
         "Max-Rotation-Speed": 180.0,
         "Min-Rotation-Speed": 180.0,
         "Reset-Place": true,
         "Swing": true,
         "Find-Biggest-Stack": false,
-        "SafeWalk": false,
+        "SafeWalk": true,
         "Spoof": true,
         "Render": true
       }
@@ -1884,9 +1900,9 @@
         "NoWater": false,
         "Debug": false,
         "Damage-Boost": false,
-        "Custom-Boost": true,
+        "Custom-Boost": false,
         "Boost-Value": 0.27,
-        "GroundBoost": false,
+        "GroundBoost": true,
         "LowHop": false,
         "CustomSpeed": 1.0,
         "CustomDoLaunchSpeed": false,
@@ -1915,7 +1931,7 @@
         "CustomUsePreMotion": true,
         "HurtTime": 10,
         "Speed": 0.7,
-        "Boost": 1.0,
+        "Boost": 0.37,
         "Matrix6.6.1-VelocBoost": true,
         "Matrix6.6.1-TimerBoost": false,
         "Matrix6.6.1-UsePreMotion": false,
@@ -1926,7 +1942,7 @@
         "Normal-Speed": 0.0,
         "Normal-Timer": 1.0,
         "VerusMode": "LowHop",
-        "Verus-TimerBoost": true,
+        "Verus-TimerBoost": false,
         "VulcanGround-GroundBoost": true,
         "VulcanGround-BoostDelay": 8,
         "Warning: ": "",
@@ -2114,7 +2130,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.0,
         "RadiusMode": "Normal",
-        "Radius": 1.78,
+        "Radius": 1.74,
         "OnlyOnGround": false,
         "HoldSpace": false,
         "OnlySpeed": true,
@@ -2252,17 +2268,5 @@
       "trigger": "TOGGLE",
       "values": {}
     }
-  },
-  "macros": {
-    "macros": [
-      {
-        "key": 48,
-        "command": ".killaura auto-block vanilla"
-      },
-      {
-        "key": 49,
-        "command": ".killaura auto-block fake"
-      }
-    ]
   }
 }
