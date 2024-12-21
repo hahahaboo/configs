@@ -15,10 +15,6 @@ bind Keepsprint and Killaura together
 
 Killaura sometimes silent flag 
 
-use speed(ground mode) when using scaffold
-
-use speed(blocksmc mode) when using killaura
-
 ### crosssine/working/supercraft : 
 
 **version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
