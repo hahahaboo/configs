@@ -4,8 +4,8 @@
     "bind": 47,
     "render": true,
     "values": {
-      "Aim Range": 4.5,
-      "Attack Range": 3.38,
+      "Aim Range": 4.55,
+      "Attack Range": 3.35,
       "Swing": 0,
       "Move Fix": 2,
       "Pattern": 2,
@@ -13,13 +13,13 @@
       "Randomization": 0.0,
       "Autoblock": 4,
       "Blink Autoblock Mode": 1,
-      "Block Range": 3.55,
-      "Interact": false,
+      "Block Range": 3.45,
+      "Interact": true,
       "Render Blocking": true,
-      "Rotation Mode": 1,
+      "Rotation Mode": 2,
       "Rotation Randomization": false,
-      "Min Rotation Speed": 170.0,
-      "Max Rotation Speed": 170.0,
+      "Min Rotation Speed": 95.0,
+      "Max Rotation Speed": 80.0,
       "Check Hittable": false,
       "Keep Sprint": true,
       "Ray Cast": false,
@@ -80,10 +80,9 @@
     "values": {
       "Mode": 0,
       "Hypixel Fast Fall": false,
-      "Hypixel Reach": false,
       "Verus Only Combat": false,
       "Verus Scaffold Check": true,
-      "Verus OmniSprint Check": true,
+      "Verus OmniSprint Check": false,
       "Verus Fly Check": false,
       "Vulcan Sprint Check": false,
       "Vulcan Scaffold Limit Check": false,
@@ -228,7 +227,8 @@
     "render": true,
     "values": {
       "Lag Amount": 200,
-      "FakeLag": 0
+      "FakeLag": 0,
+      "Repulse": true
     }
   },
   "RealLag": {
@@ -260,6 +260,43 @@
     "render": true,
     "values": {
       "Mode: ": 0
+    }
+  },
+  "SilentAura": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Aim Range": 3.1,
+      "Attack Range": 3.0,
+      "Pattern": 0,
+      "CPS": 14,
+      "Randomization": 1.5,
+      "Autoblock": 0,
+      "Block Range": 3.0,
+      "Smart Autoblock": true,
+      "Rotation Mode": 0,
+      "Rotation Randomization": false,
+      "Min Rotation Speed": 65.0,
+      "Max Rotation Speed": 85.0,
+      "Fix Movement": true,
+      "Disable on Scaffold": false,
+      "Disable on Flight": false,
+      "Disable on Eat": true,
+      "Disable on Block": true,
+      "Sort": 0,
+      "Killaura Mark Mode": 0,
+      "Display": 0
+    }
+  },
+  "Safe Mode": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Avoid Badpackets": true,
+      "No killaura": true,
+      "No Movement": true
     }
   },
   "LegitNofall": {
@@ -320,7 +357,7 @@
     "bind": 19,
     "render": true,
     "values": {
-      "Mode: ": 11,
+      "Mode: ": 12,
       "Vanilla Speed": 1.02,
       "Vanilla Only Ground": false,
       "Hypixel Semi Strafe": false,
@@ -336,7 +373,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Block": 2,
+      "Block": 1,
       "Eat": 0,
       "Potion": 0,
       "Bow": 0,
@@ -353,8 +390,8 @@
       "Mode: ": 1,
       "Fly Vanilla Speed": 3.0,
       "Fireball Fly Pitch": 70.0,
-      "Fireball Fly Speed": 2.0,
-      "Fireball Fly Flat Ticks": 20,
+      "Fireball Fly Speed": 1.45,
+      "Fireball Fly Flat Ticks": 17,
       "Vulcan Ghost Vanilla Speed": 3.0
     }
   },
@@ -363,9 +400,9 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Cancel Inventory Open": true,
-      "Hypixel": true,
-      "No Bad Packets": true
+      "Cancel Inventory Open": false,
+      "Hypixel": false,
+      "No Bad Packets": false
     }
   },
   "Jesus": {
@@ -382,7 +419,7 @@
     "render": true,
     "values": {
       "Mode: ": 0,
-      "Speed": 5.0,
+      "Speed": 2.0,
       "Display": 0
     }
   },
@@ -411,7 +448,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Mode: ": 0,
+      "Mode: ": 1,
       "Timer": 1.0
     }
   },
@@ -481,7 +518,9 @@
     "state": false,
     "bind": 0,
     "render": true,
-    "values": {}
+    "values": {
+      "Offset": -6
+    }
   },
   "Custom Motion": {
     "state": false,
@@ -518,13 +557,13 @@
     }
   },
   "RemoveEffect": {
-    "state": false,
+    "state": true,
     "bind": 0,
     "render": true,
     "values": {
       "Slowness": false,
       "MiningFatigue": false,
-      "Blindness": false,
+      "Blindness": true,
       "Weakness": false,
       "Wither": false,
       "Poison": false,
@@ -544,7 +583,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Teams": false,
+      "Teams": true,
       "Players": true,
       "Animals": false,
       "Mobs": true,
@@ -595,7 +634,7 @@
     "render": true,
     "values": {
       "Mode: ": 1,
-      "Vulcan Distance": 5.1,
+      "Vulcan Distance": 4.4,
       "Display": 0
     }
   },
@@ -616,7 +655,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Mode: ": 0
+      "Mode: ": 1
     }
   },
   "FreeCam": {
@@ -642,7 +681,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Mode: ": 3
+      "Mode: ": 0
     }
   },
   "Timer": {
@@ -660,7 +699,7 @@
     "render": true,
     "values": {
       "Arraylist": true,
-      "Arraylist Mode": 0,
+      "Arraylist Mode": 2,
       "Array Reset Position": false,
       "Modern Style": 0,
       "Modern Sidebar": 0,
@@ -862,7 +901,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Time": 1,
+      "Time": 2,
       "Custom Time": 5,
       "Weather": 1,
       "Weather Strength": 0.0,
@@ -885,7 +924,11 @@
     "state": false,
     "bind": 0,
     "render": true,
-    "values": {}
+    "values": {
+      "Mode": 0,
+      "Update Distance": 10,
+      "Update Speed": 1
+    }
   },
   "Zoom": {
     "state": false,
@@ -952,11 +995,11 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Disable KillAura": false,
+      "Disable KillAura": true,
       "Disable InvManager": false,
       "Disable Stealer": false,
       "Disable Flight": false,
-      "Disable Scaffold": false,
+      "Disable Scaffold": true,
       "Disable Timer": false
     }
   },
@@ -1073,14 +1116,22 @@
       "Server": 0
     }
   },
+  "TestStrafe": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Cobweb": false
+    }
+  },
   "Scaffold": {
     "state": false,
     "bind": 44,
     "render": true,
     "values": {
-      "Rotation Mode": 4,
+      "Rotation Mode": 6,
       "Custom Yaw": 180.0,
-      "Custom Pitch": 90.0,
+      "Custom Pitch": 67.5,
       "Keep Rotation Length": 1,
       "Swing": 0,
       "Placement Check": 0,
@@ -1091,7 +1142,7 @@
       "Sprint Mode": 0,
       "Hypixel Jump Lowhop": false,
       "Same Y": 5,
-      "Speed Modifier": 1.0,
+      "Speed Modifier": 0.95,
       "Timer": 1.0,
       "Safewalk": 3,
       "Movement Correction": false,
@@ -1163,7 +1214,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "PlaceDelay": 1
+      "PlaceDelay": 2
     }
   },
   "SpeedMine": {
@@ -1173,7 +1224,8 @@
     "values": {
       "Mode: ": 0,
       "Percent": 0.8,
-      "Speed": 1.0
+      "Speed": 1.0,
+      "No Mine Delay": true
     }
   }
 }
