@@ -7,7 +7,7 @@ some config might not work / ban
 
 ### crosssine/working/blocksmc : 
 
-**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
+**version** : [crosssine b41 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B41/CrossSine-b41.jar)
 
 **note** : 
 
@@ -17,7 +17,7 @@ Killaura sometimes silent flag
 
 ### crosssine/working/supercraft : 
 
-**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
+**version** : [crosssine b41 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B41/CrossSine-b41.jar)
 
 **note** : 
 
@@ -27,11 +27,11 @@ killaura sometimes get strafe detect
 
 ### crosssine/testing/kkcraft : 
 
-**version** : [crosssine b40 (latest beta)](https://crosssine.github.io/file/CrossSine-b40.jar)
+**version** : [crosssine b41 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B41/CrossSine-b41.jar)
 
 **note** : 
 
-backtrack might get kick/ban
+no backtrack
 
 ### slack/working/blocksmc : 
 
