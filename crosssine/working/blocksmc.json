@@ -1,7 +1,4 @@
 {
-  "macros": {
-    "macros": []
-  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -560,7 +557,7 @@
       "trigger": "TOGGLE",
       "values": {
         "hypixelBypass": false,
-        "Boost": 4.25,
+        "Boost": 3.39,
         "Height": 0.42,
         "Timer": 1.0,
         "DelayBeforeArrowLaunch": 1,
@@ -738,7 +735,7 @@
         "CustomDamage-Packet1Clip": 4.0,
         "CustomDamage-Packet2Clip": -0.2,
         "CustomDamage-Packet3Clip": 0.5,
-        "Damage": 1,
+        "Damage": 20,
         "OnlyGround": true
       }
     },
@@ -1096,23 +1093,23 @@
       }
     },
     "HackerDetector": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
         "Warning": true,
-        "WarningVL": 60,
+        "WarningVL": 20,
         "Alert": true,
-        "Debug": false,
+        "Debug": true,
         "AutoBlock": true,
         "Reach": true,
         "Velocity": true,
-        "NoSlow": false,
+        "NoSlow": true,
         "Scaffold": true,
         "NoFall": true,
-        "PingSpoof": false,
+        "PingSpoof": true,
         "Rotation": true
       }
     },
@@ -1823,7 +1820,7 @@
         "CustomMotion-SpeedEffect": false,
         "CustomMotionSpeed-SpeedEffect": 1.05,
         "CustomStrafe": true,
-        "CustomStrafeSpeed": 0.1,
+        "CustomStrafeSpeed": 0.3,
         "JumpBoost": true,
         "BridgeMode": "AutoJump",
         "Intave-Mode": "None",
@@ -1853,14 +1850,14 @@
         "SafeWalk": false,
         "Zitter": false,
         "RotationSpeed": true,
-        "MaxRotationSpeed": 40,
-        "MinRotationSpeed": 35,
+        "MaxRotationSpeed": 45,
+        "MinRotationSpeed": 30,
         "MaxPlaceDelay": 0,
         "MinPlaceDelay": 0,
         "ExpandLength": 1,
         "OmniDirectionalExpand": true,
         "Timer": 1.0,
-        "TowerTimer": 0.92,
+        "TowerTimer": 0.95,
         "Eagle": "Off",
         "BlocksToEagle": 1,
         "EagleEdgeDistance": 0.01,
@@ -2096,12 +2093,12 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "BlocksMC",
-        "Height": 2.05,
-        "JumpMotion": 0.42,
-        "Delay": 0,
+        "Mode": "Jump",
+        "Height": 1.03,
+        "JumpMotion": 0.4,
+        "Delay": 500,
         "Timer": 1.0,
-        "UseDynamicTimer": false
+        "UseDynamicTimer": true
       }
     },
     "StorageESP": {
@@ -2325,5 +2322,8 @@
       "trigger": "TOGGLE",
       "values": {}
     }
+  },
+  "macros": {
+    "macros": []
   }
 }
