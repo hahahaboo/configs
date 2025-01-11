@@ -7,7 +7,7 @@ some config might not work / ban
 
 ### crosssine/working/blocksmc : 
 
-**version** : [crosssine b42 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B42/CrossSine-b41.jar)
+**version** : [crosssine b42 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B42/CrossSine-b42.jar)
 
 **note** : 
 
