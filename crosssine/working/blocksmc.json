@@ -19,16 +19,6 @@
         "AllowBreakBlock": false
       }
     },
-    "AirJump": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "AirSpoof": false
-      }
-    },
     "Animations": {
       "state": true,
       "keybind": 0,
@@ -44,7 +34,10 @@
         "ItemPosZ": 0.0,
         "ItemScale": 85,
         "SwingSpeed": 1.19,
-        "Flux Swing": false
+        "Flux Swing": false,
+        "BlockAnimation": true,
+        "UseItemWhileDigging": true,
+        "OldSneak": false
       }
     },
     "Annoy": {
@@ -60,18 +53,6 @@
         "SilentRotate": true
       }
     },
-    "Anti-AFK": {
-      "state": true,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Time": 15,
-        "Rotation": false,
-        "Jump": true
-      }
-    },
     "AntiBot": {
       "state": true,
       "keybind": 0,
@@ -81,8 +62,8 @@
       "values": {
         "Tab": true,
         "TabMode": "Equals",
-        "EntityID": true,
-        "Color": false,
+        "EntityID": false,
+        "Color": true,
         "LivingTime": false,
         "LivingTimeTicks": 40,
         "Ground": false,
@@ -110,7 +91,7 @@
         "FastDamageTicks": 5,
         "RemoveFromWorld": false,
         "Remove-Interval": 20,
-        "Debug": false,
+        "Debug": true,
         "AlwaysInRadius": false,
         "AlwaysInRadiusBlocks": 20.0,
         "AlwaysInRadiusRemove": false,
@@ -149,16 +130,6 @@
         "MinTurnSpeed": 80.0
       }
     },
-    "AntiStuck": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Flags": 5
-      }
-    },
     "AntiVoid": {
       "state": true,
       "keybind": 33,
@@ -185,7 +156,6 @@
       "values": {
         "Background": true,
         "Rounded": false,
-        "Rect-Rounded": false,
         "Rect": "Outline",
         "Case": "None",
         "NoRenderModule": true,
@@ -204,17 +174,6 @@
       "values": {
         "Range": 3.5,
         "AutoClear": false
-      }
-    },
-    "AuthBypass": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "RedeSky",
-        "Delay": 1500
       }
     },
     "AutoBot": {
@@ -248,16 +207,6 @@
         "AutoBow-WaitForBowAimBot": true
       }
     },
-    "AutoChest": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Delay": 0
-      }
-    },
     "AutoClicker": {
       "state": false,
       "keybind": 0,
@@ -284,18 +233,7 @@
         "Only-Tool": true,
         "AutoWeapon": true,
         "OnlySword": true,
-        "Spoof-Item": false,
-        "Spoof-Mode": "RenderItem"
-      }
-    },
-    "AutoLadder": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "YMotion": 0.2
+        "Spoof-Item": false
       }
     },
     "AutoLogin": {
@@ -321,7 +259,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Delay": 21.5,
+        "Delay": 20.0,
         "MouseDown": true,
         "Fake-Mouse-Down": false,
         "Up": false,
@@ -348,16 +286,6 @@
         "JoinDelay": 3
       }
     },
-    "AutoWho": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Debug": false
-      }
-    },
     "BackTrack": {
       "state": false,
       "keybind": 0,
@@ -368,9 +296,7 @@
         "LagMode": "LagReach",
         "PingSize": 0,
         "Size": 60,
-        "PlayerModel": true,
-        "SmoothESP": false,
-        "CheckDistance": true
+        "PlayerModel": true
       }
     },
     "BedAura": {
@@ -383,6 +309,7 @@
         "Range": 4.0,
         "Swing": true,
         "BreakSpeed": 1.0,
+        "Snap-Rotation": true,
         "IgnoreSlow": false,
         "IgnoreGround": false,
         "ThroughWall": true,
@@ -503,24 +430,6 @@
         "Block-Alpha": 100
       }
     },
-    "BoatExploit": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "Boost",
-        "Speed": 0.3,
-        "HBoost": 2.0,
-        "VBoost": 2.0,
-        "MatrixTimerStart": 0.3,
-        "MatrixTimerAir": 0.5,
-        "LaunchRadius": 4.0,
-        "Delay": 200,
-        "AutoHit": true
-      }
-    },
     "BowAimbot": {
       "state": false,
       "keybind": 0,
@@ -543,26 +452,10 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "AutoBow",
-        "WaitForBowAimbot": true,
+        "Mode": "FastBow",
+        "WaitForBowAimbot": false,
         "Packets": 20,
         "Delay": 0
-      }
-    },
-    "BowJump": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "hypixelBypass": false,
-        "Boost": 3.39,
-        "Height": 0.42,
-        "Timer": 1.0,
-        "DelayBeforeArrowLaunch": 1,
-        "AutoDisable": true,
-        "RenderStatus": true
       }
     },
     "Breadcrumbs": {
@@ -623,20 +516,6 @@
         "Alpha": 255,
         "Saturation": 1.0,
         "Brightness": 1.0
-      }
-    },
-    "ChatFilter": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "Null",
-        "Chance": 0.2,
-        "Pinyin-Fill": " ",
-        "MinUnicode": 1000,
-        "MaxUnicode": 20000
       }
     },
     "ChatManager": {
@@ -722,23 +601,6 @@
         "Blue": 255
       }
     },
-    "Damage": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "NCP",
-        "VerusMode": "Damage1",
-        "NCPMode": "Glitch",
-        "CustomDamage-Packet1Clip": 4.0,
-        "CustomDamage-Packet2Clip": -0.2,
-        "CustomDamage-Packet3Clip": 0.5,
-        "Damage": 20,
-        "OnlyGround": true
-      }
-    },
     "DamageParticle": {
       "state": true,
       "keybind": 0,
@@ -819,14 +681,6 @@
         "B": 255
       }
     },
-    "FPSBoost": {
-      "state": false,
-      "keybind": 0,
-      "array": false,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {}
-    },
     "FakeLag": {
       "state": false,
       "keybind": 0,
@@ -835,11 +689,9 @@
       "trigger": "TOGGLE",
       "values": {
         "Mode": "Dynamic",
-        "Delay": 200,
-        "Tick": 10,
+        "FreezeMS": 350,
         "Range-Max": 6.0,
-        "Range-Min": 6.0,
-        "Debug": false
+        "Range-Min": 6.0
       }
     },
     "FastBreak": {
@@ -894,7 +746,7 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Clip",
+        "Mode": "Vanilla",
         "MotionReset": true,
         "ResetY": true,
         "Mark": "Off",
@@ -1015,14 +867,6 @@
         "Reverse": false
       }
     },
-    "Freeze": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "RESPAWN",
-      "trigger": "TOGGLE",
-      "values": {}
-    },
     "FullBright": {
       "state": true,
       "keybind": 0,
@@ -1050,23 +894,6 @@
         "InvCheck": false,
         "NoAbsorption": true,
         "Alert": false
-      }
-    },
-    "Glide": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "FLAG",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "VerusCollide",
-        "MotionReset": false,
-        "FakeDamage": false,
-        "ViewBobbing": false,
-        "ViewBobbingYaw": 0.1,
-        "Minemora-Mode": "Glide1",
-        "Minemora-Glide2-Tick": 4,
-        "NeruxVace-Ticks": 6
       }
     },
     "Glint": {
@@ -1203,15 +1030,11 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Watermark": false,
-        "Use Watermark command to changed": "",
-        "information": false,
-        "Font": {
-          "fontName": "Minecraft Font",
-          "fontSize": -1
-        },
-        "InventoryAnimation": true,
-        "RoundedHotBar": false
+        "DynamicIsland": false,
+        "PlayerStats": true,
+        "InventoryAnimation": false,
+        "RoundedHotBar": false,
+        "Shader": true
       }
     },
     "InvManager": {
@@ -1320,6 +1143,22 @@
         "Mode": "Both"
       }
     },
+    "KeyStrokes": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Key Rainbow Color": false,
+        "Show Mouse": false,
+        "Show Space": false,
+        "Line Space": false,
+        "Rounded Size": 0.0,
+        "Background Alpha": 90,
+        "Size Box": 1.0
+      }
+    },
     "KillAura": {
       "state": false,
       "keybind": 47,
@@ -1327,7 +1166,7 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Range": 3.35,
+        "Range": 3.45,
         "Swing-Range": 4.5,
         "Discover-Range": 5.35,
         "Fov": false,
@@ -1336,11 +1175,11 @@
         "1.9-Combat-Check": false,
         "CPS-Reduce": false,
         "Add-CPS": 1,
-        "MaxCPS": 12,
-        "MinCPS": 8,
-        "Target-Mode": "Single",
+        "MaxCPS": 14,
+        "MinCPS": 10,
+        "Target-Mode": "Switch",
         "Priority": "Distance",
-        "Switch-Delay": 995,
+        "Switch-Delay": 1445,
         "Limited-Multi-Targets": 0,
         "Limit-Use": "",
         "Blink-Check": true,
@@ -1358,8 +1197,8 @@
         "Rotation": "",
         "RotationMode": "Normal",
         "SilentRotation": true,
-        "MaxTurnSpeed": 44,
-        "MinTurnSpeed": 33,
+        "MaxTurnSpeed": 50,
+        "MinTurnSpeed": 40,
         "RotationReverse": false,
         "RotationReverseTick": 20,
         "KeepDirection": false,
@@ -1369,9 +1208,9 @@
         "MoreBypass": "",
         "RayCast": false,
         "RaycastOnlyTarget": false,
-        "Predict": false,
-        "MaxPredictSize": 0.95,
-        "MinPredictSize": 0.95,
+        "Predict": true,
+        "MaxPredictSize": 0.6,
+        "MinPredictSize": 0.1,
         "Render": "",
         "Mark": true
       }
@@ -1418,32 +1257,9 @@
         "TimeTicks": 10,
         "Motion": 0.01,
         "Strafe": false,
-        "MatrixHurt-BoostSpeed": 0.416,
-        "MatrixHurt-Ticks": 10,
         "NCP-Boost": 1.0,
         "NCPDamage-Boost": 1.0,
-        "NCPDamage-DamageInstant": false,
-        "OldMatrixWater-Horizon": 1.0,
-        "OldMatrixWater-MotionY": 0.42,
-        "RedeSky-JumpMovement": 0.13,
-        "RedeSky-MotionY": 0.81,
-        "RedeSky-MovementReducer": true,
-        "RedeSky-ReduceMovement": 0.08,
-        "RedeSky-MotionYReducer": true,
-        "RedeSky-ReduceYMotion": 0.15,
-        "RedeSky-Timer": 0.3,
-        "RedeSky2-AirSpeed": 0.1,
-        "RedeSky2-MinAirSpeed": 0.08,
-        "RedeSky2-ReduceAirSpeed": 0.16,
-        "RedeSky2-AirSpeedReducer": true,
-        "RedeSky2-YMotion": 0.08,
-        "RedeSky2-MinYMotion": 0.04,
-        "RedeSky2-ReduceYMotion": 0.15,
-        "RedeSky2-YMotionReducer": true,
-        "RedeSky3-JumpTime": 500,
-        "RedeSky3-Boost": 1.0,
-        "RedeSky3-Height": 1.0,
-        "RedeSky3-Timer": 1.0
+        "NCPDamage-DamageInstant": false
       }
     },
     "MCF": {
@@ -1536,14 +1352,6 @@
         "Border-Alpha": 0
       }
     },
-    "No0.03": {
-      "state": false,
-      "keybind": 0,
-      "array": false,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {}
-    },
     "NoFOV": {
       "state": false,
       "keybind": 0,
@@ -1565,23 +1373,14 @@
         "NoVoid": true,
         "SilentRotation": false,
         "TurnSpeed": 10,
-        "MLG-MinMLGHeight": 5.0,
+        "FallDistance": 3.0,
         "SafeNoFall": true,
         "MotionFlag-MotionSpeed": -0.01,
         "Phase-PhaseOffset": 0,
-        "FallDistance": 3.0,
         "Prediction": false
       }
     },
     "NoFriends": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {}
-    },
-    "NoPitchLimit": {
       "state": false,
       "keybind": 0,
       "array": true,
@@ -1607,9 +1406,7 @@
       "array": false,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
-      "values": {
-        "Mode": "Cancel"
-      }
+      "values": {}
     },
     "NoSlow": {
       "state": false,
@@ -1662,26 +1459,6 @@
         "NukeDelay": 1
       }
     },
-    "OldAnimations": {
-      "state": false,
-      "keybind": 0,
-      "array": false,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Old Sneak": true,
-        "Block Animation": true,
-        "Use Item while digging": true
-      }
-    },
-    "Parkour": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {}
-    },
     "Patcher": {
       "state": true,
       "keybind": 0,
@@ -1710,18 +1487,6 @@
         "MatrixBlink-timer": 0.3,
         "MatrixBlink-initialClipDistance": 0.1,
         "MatrixBlink-showFlag": true
-      }
-    },
-    "PingSpoof": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "MaxDelay": 957,
-        "MinDelay": 811,
-        "PacketLoss": 0.0
       }
     },
     "Projectiles": {
@@ -1926,11 +1691,20 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
+        "ClientTheme": false,
         "Red": 255,
         "Green": 255,
         "Blue": 255,
         "SmoothLines": true
       }
+    },
+    "SmoothCamera": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
     },
     "Spammer": {
       "state": false,
@@ -1955,68 +1729,47 @@
       "trigger": "TOGGLE",
       "values": {
         "Mode": "BlocksMC",
+        "Flag-Check": false,
         "NoWater": false,
-        "Debug": false,
         "Damage-Boost": false,
         "Custom-Boost": true,
         "Boost-Value": 0.1,
         "GroundBoost": true,
         "LowHop": false,
-        "CustomSpeed": 1.0,
+        "CustomSpeed": 0.8,
         "CustomDoLaunchSpeed": false,
-        "CustomLaunchSpeed": 1.6,
+        "CustomLaunchSpeed": 0.96,
         "CustomLaunchMoveBeforeJump": false,
-        "CustomDoMinimumSpeed": false,
-        "CustomMinimumSpeed": 0.25,
-        "CustomAddYMotion": 0.0,
-        "CustomDoModifyJumpY": false,
+        "CustomDoMinimumSpeed": true,
+        "CustomMinimumSpeed": 0.3,
+        "CustomAddYMotion": 0.3,
+        "CustomDoModifyJumpY": true,
         "CustomY": 0.42,
-        "CustomUpTimer": 1.0,
-        "CustomJumpTimer": 1.25,
+        "CustomUpTimer": 0.8,
+        "CustomJumpTimer": 1.0,
         "CustomDownTimer": 1.0,
-        "CustomUpAirSpeed": 2.03,
-        "CustomDownAirSpeed": 2.01,
+        "CustomUpAirSpeed": 1.1,
+        "CustomDownAirSpeed": 1.04,
         "CustomStrafe": true,
-        "PlusBoostMode": "Add",
+        "PlusBoostMode": "Multiply",
         "PlusMultiplyAmount": 2.0,
         "CustomGroundStay": 0,
         "CustomGroundResetXZ": false,
-        "CustomResetXZ": false,
-        "CustomResetY": false,
+        "CustomResetXZ": true,
+        "CustomResetY": true,
         "CustomDoJump": true,
         "CustomPressSpaceKeyOnGround": true,
         "CustomPressSpaceKeyInAir": false,
         "CustomUsePreMotion": true,
-        "HurtTime": 10,
-        "Speed": 0.7,
         "Boost": 0.38,
-        "Matrix6.6.1-VelocBoost": true,
-        "Matrix6.6.1-TimerBoost": false,
-        "Matrix6.6.1-UsePreMotion": false,
-        "Abuse": false,
         "NCP-DamageBoost": false,
         "NCP-Timer": 1.01,
         "Normal-YMotion": 0.0,
         "Normal-Speed": 0.0,
         "Normal-Timer": 1.0,
-        "VerusMode": "LowHop",
-        "Verus-TimerBoost": false,
-        "VulcanGround-GroundBoost": true,
-        "VulcanGround-BoostDelay": 8,
-        "Warning: ": "",
-        "Vulcan Strafe": "",
-        "Disabler Needed": ""
-      }
-    },
-    "Spider": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Mode": "Collide",
-        "Motion": 0.42
+        "HurtTime": 10,
+        "Speed": 0.7,
+        "Strafe": true
       }
     },
     "Sprint": {
@@ -2117,19 +1870,6 @@
         "Hopper": false
       }
     },
-    "Strafe": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Strength": 0.5,
-        "NoMoveStop": false,
-        "OnGroundStrafe": false,
-        "AllDirectionsJump": false
-      }
-    },
     "StreamerMode": {
       "state": false,
       "keybind": 0,
@@ -2140,14 +1880,6 @@
         "Name": "CrossSineUser",
         "SensorPlayer": false
       }
-    },
-    "SuperheroFX": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {}
     },
     "Target": {
       "state": false,
@@ -2169,7 +1901,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Simple",
+        "Mode": "CrossSine",
         "FollowTarget": false
       }
     },
@@ -2184,7 +1916,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.0,
         "RadiusMode": "Normal",
-        "Radius": 1.75,
+        "Radius": 1.77,
         "OnlyOnGround": false,
         "HoldSpace": false,
         "OnlySpeed": true,
@@ -2273,8 +2005,8 @@
       "trigger": "TOGGLE",
       "values": {
         "Mode": "Standard",
-        "Horizontal": 0.0,
-        "Vertical": 0.0,
+        "Horizontal": 0,
+        "Vertical": 0,
         "Chance": 100,
         "StandardTag": "Text",
         "OnlyGround": false,
@@ -2303,6 +2035,19 @@
         "BobCustom": 0.0
       }
     },
+    "WTap": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range": 3.5,
+        "Hold-Time": 250,
+        "On-Combo": false,
+        "After-Hits": 2
+      }
+    },
     "WorldTime": {
       "state": true,
       "keybind": 0,
@@ -2324,6 +2069,15 @@
     }
   },
   "macros": {
-    "macros": []
+    "macros": [
+      {
+        "key": 47,
+        "command": ".killaura auto-block watchdogblinkless"
+      },
+      {
+        "key": 48,
+        "command": ".killaura auto-block fake"
+      }
+    ]
   }
 }
