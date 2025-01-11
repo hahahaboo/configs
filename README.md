@@ -15,23 +15,7 @@ bind Keepsprint and Killaura together
 
 Killaura sometimes silent flag 
 
-### crosssine/working/supercraft : 
-
-**version** : [crosssine b41 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B41/CrossSine-b41.jar)
-
-**note** : 
-
-Speed might get kick/ban
-
-killaura sometimes get strafe detect
-
-### crosssine/testing/kkcraft : 
-
-**version** : [crosssine b41 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B41/CrossSine-b41.jar)
-
-**note** : 
-
-no backtrack
+use Fakeblock on Killaura if you dont want any flags
 
 ### slack/working/blocksmc : 
 
