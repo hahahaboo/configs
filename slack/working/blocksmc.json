@@ -6,20 +6,21 @@
     "values": {
       "Aim Range": 4.55,
       "Attack Range": 3.35,
+      "Attack Timing": 0,
       "Swing": 0,
       "Move Fix": 2,
-      "Pattern": 2,
+      "Pattern": 4,
       "CPS": 13,
-      "Randomization": 0.0,
+      "Randomization": 0.45,
       "Autoblock": 4,
       "Blink Autoblock Mode": 1,
       "Block Range": 3.45,
       "Interact": true,
       "Render Blocking": true,
-      "Rotation Mode": 2,
+      "Rotation Mode": 1,
       "Rotation Randomization": false,
-      "Min Rotation Speed": 95.0,
-      "Max Rotation Speed": 80.0,
+      "Min Rotation Speed": 145.0,
+      "Max Rotation Speed": 120.0,
       "Check Hittable": false,
       "Keep Sprint": true,
       "Ray Cast": false,
@@ -153,7 +154,7 @@
     "render": true,
     "values": {
       "Min Reach": 3.0,
-      "Max Reach": 4.0,
+      "Max Reach": 3.5,
       "Chance": 1.0
     }
   },
@@ -519,7 +520,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Offset": -6
+      "Offset": 55
     }
   },
   "Custom Motion": {
@@ -531,11 +532,12 @@
     }
   },
   "AntiBot": {
-    "state": true,
+    "state": false,
     "bind": 0,
     "render": true,
     "values": {
-      "Colored name": true
+      "Colored name": true,
+      "NPC (hasn\u0027t moved)": true
     }
   },
   "Killsults": {
@@ -583,7 +585,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Teams": true,
+      "Teams": false,
       "Players": true,
       "Animals": false,
       "Mobs": true,
@@ -603,21 +605,20 @@
     "bind": 0,
     "render": true,
     "values": {
+      "Auto Respawn": true,
+      "Bigger Chat": true,
+      "Custom Title": false,
+      "Full Bright": true,
+      "Modern Keybindings": true,
       "No Achievement": false,
-      "No Block Hit Delay": true,
-      "No Click Delay": true,
-      "No Render Skins": false,
-      "Don\u0027t Tick invisibles": false,
-      "No XP Bar": false,
       "No Chat Background": false,
-      "Infinite Chat": true,
-      "FullBright": true,
-      "No Boss Health": false,
-      "No Jump Delay": true,
-      "Jump Delay Ticks": 0,
-      "Exit Gui Fix": true,
+      "No Click Delay": true,
+      "No XP Bar": false,
       "No Pumpkin": true,
-      "Custom Title": false
+      "No Boss Health": false,
+      "No Custom Skins": false,
+      "Don\u0027t Tick invisibles": false,
+      "Jump Delay": 3
     }
   },
   "NoGuiClose": {
@@ -629,12 +630,12 @@
     }
   },
   "Antivoid": {
-    "state": true,
+    "state": false,
     "bind": 33,
     "render": true,
     "values": {
       "Mode: ": 1,
-      "Vulcan Distance": 4.4,
+      "Distance": 4.0,
       "Display": 0
     }
   },
@@ -699,7 +700,7 @@
     "render": true,
     "values": {
       "Arraylist": true,
-      "Arraylist Mode": 2,
+      "Arraylist Mode": 0,
       "Array Reset Position": false,
       "Modern Style": 0,
       "Modern Sidebar": 0,
@@ -707,14 +708,15 @@
       "Arraylist Background": true,
       "Tags": true,
       "Tags Style": 0,
-      "Watermark": true,
+      "Watermark": false,
       "WaterMark": 0,
       "Notifications": true,
-      "Rounded Notifications": true,
+      "Old Notifications": true,
       "FPS Counter": true,
       "BPS Counter": true,
       "Scaffold Counter": true,
       "ItemSpoof indicator": true,
+      "Center Notification": true,
       "Toggle Sound": false,
       "Client Theme": 3,
       "Custom Start R": 0,
@@ -766,7 +768,21 @@
       "Rounded": false,
       "Reset Position": false,
       "Follow Target": false,
-      "Smooth Follow": false
+      "Smooth Follow": false,
+      "Xpos": -3.0,
+      "Ypos": 0.0
+    }
+  },
+  "KeyStrokes": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {
+      "Client Theme": true,
+      "Alpha": 90,
+      "Reset Position": false,
+      "Xpos": 70.0,
+      "Ypos": 80.0
     }
   },
   "BedESP": {
@@ -880,7 +896,9 @@
       "Text Shadow": false,
       "Line Numbers": true,
       "Font": 0,
-      "Font Scale": 18
+      "Font Scale": 18,
+      "Xpos": 0.0,
+      "Ypos": 160.0
     }
   },
   "SessionInfo": {
@@ -888,8 +906,8 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Pos X": 8.0,
-      "Pos Y": 160.0,
+      "Xpos": 8.0,
+      "Ypos": 160.0,
       "Alpha": 170,
       "Rounded": false,
       "Reset Position": false,
@@ -952,16 +970,6 @@
       "Background Rounded Radius": 6
     }
   },
-  "KeyStrokes": {
-    "state": false,
-    "bind": 0,
-    "render": true,
-    "values": {
-      "Client Theme": true,
-      "Alpha": 90,
-      "Reset Position": false
-    }
-  },
   "BPSCounter": {
     "state": false,
     "bind": 0,
@@ -974,6 +982,12 @@
       "Custom Background Height": 18,
       "Custom Background Rounded Radius": 6
     }
+  },
+  "CustomRender": {
+    "state": false,
+    "bind": 0,
+    "render": true,
+    "values": {}
   },
   "AntiCheat": {
     "state": false,
@@ -1165,6 +1179,7 @@
       "Target Switch Delay": 50,
       "FastBreak Percent": 0.8,
       "Hypixel Faster": false,
+      "Hypixel Faster Spoof Ground": true,
       "No Combat": false,
       "Display": 0
     }
@@ -1174,6 +1189,7 @@
     "bind": 35,
     "render": true,
     "values": {
+      "Silent Inventory": false,
       "Delay": 2,
       "Sword slot": 0,
       "Stack slot": 8,
