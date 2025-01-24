@@ -24,3 +24,11 @@ use Fakeblock on Killaura if you dont want any flags
 **note** : 
 
 bind Disabler and Scaffold together
+
+###  rise/working/vulcan291 :
+
+**version** : [rise latest update](https://vantage.rip)
+
+**note** :
+
+if you are dumb with it it will ban
