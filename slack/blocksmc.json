@@ -589,7 +589,7 @@
     "bind": 0,
     "render": true,
     "values": {
-      "Teams": true,
+      "Teams": false,
       "Players": true,
       "Animals": false,
       "Mobs": true,
