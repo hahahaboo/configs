@@ -19,7 +19,7 @@ use Fakeblock on Killaura if you dont want any flags
 
 ### slack/blocksmc : 
 
-**version** : [slack 6.0](https://github.com/DGVPSH/SlackOpen/releases/download/B6.0_preview/Archive.2.zip)
+**version** : [slack 6.0 perview 2](https://github.com/DGVPSH/SlackOpen/releases/download/B6.0_preview2/Slack.zip)
 
 **note** : 
 
