@@ -8,6 +8,10 @@
       {
         "key": 48,
         "command": ".killaura auto-block fake"
+      },
+      {
+        "key": 35,
+        "command": ".invmanager drop"
       }
     ]
   },
@@ -352,15 +356,15 @@
       "trigger": "TOGGLE",
       "values": {
         "Item-Checker": true,
-        "Stone-Sword": false,
+        "Stone-Sword": true,
         "Iron-Sword": true,
         "Diamond-Sword": true,
-        "FireBall": true,
-        "EnderPearl": true,
-        "TNT": true,
-        "Obsidian": true,
-        "Invisibility-Potion": true,
-        "Diamond-Armor": true
+        "FireBall": false,
+        "EnderPearl": false,
+        "TNT": false,
+        "Obsidian": false,
+        "Invisibility-Potion": false,
+        "Diamond-Armor": false
       }
     },
     "Blink": {
@@ -1065,7 +1069,7 @@
         "Hotbar": true,
         "RandomSlot": false,
         "Sort": true,
-        "Drop": true,
+        "Drop": false,
         "Armor": true,
         "NoCombat": false,
         "ItemDelay": 50,
@@ -1189,9 +1193,9 @@
         "Add-CPS": 1,
         "MaxCPS": 14,
         "MinCPS": 10,
-        "Target-Mode": "Switch",
+        "Target-Mode": "Single",
         "Priority": "Distance",
-        "Switch-Delay": 1445,
+        "Switch-Delay": 1372,
         "Limited-Multi-Targets": 0,
         "Limit-Use": "",
         "Blink-Check": true,
@@ -1209,8 +1213,8 @@
         "Rotation": "",
         "RotationMode": "Normal",
         "SilentRotation": true,
-        "MaxTurnSpeed": 50,
-        "MinTurnSpeed": 40,
+        "MaxTurnSpeed": 45,
+        "MinTurnSpeed": 45,
         "RotationReverse": false,
         "RotationReverseTick": 20,
         "KeepDirection": false,
@@ -1220,9 +1224,9 @@
         "MoreBypass": "",
         "RayCast": false,
         "RaycastOnlyTarget": false,
-        "Predict": true,
-        "MaxPredictSize": 0.6,
-        "MinPredictSize": 0.1,
+        "Predict": false,
+        "MaxPredictSize": 1.1,
+        "MinPredictSize": 0.2,
         "Render": "",
         "Mark": true
       }
@@ -1596,7 +1600,7 @@
         "CustomMotionSpeed": 0.93,
         "CustomMotion-SpeedEffect": false,
         "CustomMotionSpeed-SpeedEffect": 1.05,
-        "CustomStrafe": true,
+        "CustomStrafe": false,
         "CustomStrafeSpeed": 0.3,
         "JumpBoost": true,
         "BridgeMode": "AutoJump",
@@ -1628,7 +1632,7 @@
         "Zitter": false,
         "RotationSpeed": true,
         "MaxRotationSpeed": 45,
-        "MinRotationSpeed": 30,
+        "MinRotationSpeed": 45,
         "MaxPlaceDelay": 0,
         "MinPlaceDelay": 0,
         "ExpandLength": 1,
@@ -1745,7 +1749,7 @@
         "NoWater": false,
         "Damage-Boost": false,
         "Custom-Boost": true,
-        "Boost-Value": 0.2,
+        "Boost-Value": 0.25,
         "GroundBoost": false,
         "LowHop": false,
         "CustomSpeed": 0.8,
@@ -1816,7 +1820,7 @@
       }
     },
     "Stealer": {
-      "state": true,
+      "state": false,
       "keybind": 35,
       "array": true,
       "autodisable": "NONE",
@@ -1928,7 +1932,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.0,
         "RadiusMode": "Normal",
-        "Radius": 1.77,
+        "Radius": 1.75,
         "OnlyOnGround": false,
         "HoldSpace": false,
         "OnlySpeed": true,
