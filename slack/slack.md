@@ -1,3 +1,5 @@
+# slack configs
+
 ## slack/blocksmc : 
 
 #### version : 
