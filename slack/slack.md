@@ -4,7 +4,7 @@
 
 #### version : 
 
-[slack 6.0 perview 2](https://github.com/DGVPSH/SlackOpen/releases/download/B6.0_preview2/Slack.zip)
+[slack 6.0 perview 3](https://github.com/DGVPSH/SlackOpen/releases/download/B6.0_preview3/Slack.zip)
 
 #### binds :
 
