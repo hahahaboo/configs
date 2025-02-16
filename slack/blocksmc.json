@@ -1146,6 +1146,7 @@
       "Swing": 0,
       "Placement Check": 0,
       "Placement Timing": 0,
+      "Placement Hitvec": 0,
       "Search Distance": 4,
       "Expand Amount": 0.0,
       "Tower Expand Amount": 0.0,
