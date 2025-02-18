@@ -27,3 +27,5 @@ bind Keepsprint and Killaura together
 Killaura sometimes silent flag 
 
 use Fakeblock on Killaura if you dont want any flags
+
+you can set Targetstrafe radius as you like (biggest 2.55)
