@@ -4,7 +4,7 @@
 
 #### version : 
 
-[crosssine b42 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B42/CrossSine-b42.jar)
+[crosssine b44 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B44Beta/CrossSine-b44.jar)
 
 #### binds :
 
@@ -24,8 +24,10 @@ Stealer : H
 
 bind Keepsprint and Killaura together
 
-Killaura sometimes silent flag 
+Killaura sometimes silent flag
+
+speed sometimes flag
 
 use Fakeblock on Killaura if you dont want any flags
 
-you can set Targetstrafe radius as you like (biggest 2.55)
+you can set Targetstrafe radius as you like (biggest 2.5)
