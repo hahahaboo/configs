@@ -4,7 +4,7 @@
 
 #### version : 
 
-[crosssine b44 (latest beta)](https://github.com/shxp3/CrossSine/releases/download/B44Beta/CrossSine-b44.jar)
+crosssine b44 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://github.com/shxp3/CrossSine/releases/download/B44Beta/CrossSine-b44.jar)
 
 #### binds :
 
