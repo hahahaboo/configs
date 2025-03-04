@@ -4,13 +4,15 @@
 
 #### version : 
 
-[lb lagacy b99 (2281f2a)](https://dl.liquidbounce.net/download/C0ZpqgHotj)
+lb lagacy b100 / [website](https://liquidbounce.net/) / [discord](https://liquidbounce.net/discord) / [github](https://github.com/CCBlueX/LiquidBounce) / [download](https://dl.liquidbounce.net/download/g0cql-kTP2)
 
-#### binds : (the config wont save binds in config file)
+#### binds :
 
 Killaura : V
 
 Scaffold : Z
+
+Fucker(bedaura) : X
 
 Speed : R
 
