@@ -1,16 +1,4 @@
 {
-  "macros": {
-    "macros": [
-      {
-        "key": 48,
-        "command": ".killaura auto-block fake"
-      },
-      {
-        "key": 35,
-        "command": ".invmanager drop"
-      }
-    ]
-  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -274,7 +262,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Delay": 20.0,
+        "Delay": 25.0,
         "MouseDown": true,
         "Fake-Mouse-Down": false,
         "Up": false,
@@ -643,7 +631,7 @@
         "HyCraftCrash": false,
         "Riding": false,
         "Universocraft": false,
-        "VerusFix": false,
+        "VerusFix": true,
         "VulcanCombat": false,
         "VulcanSprint": true,
         "VulcanStrafe": false,
@@ -1180,10 +1168,10 @@
       "trigger": "TOGGLE",
       "values": {
         "Key Rainbow Color": false,
-        "Show Mouse": false,
-        "Show CPS": false,
-        "Show Space": false,
-        "Line Space": false,
+        "Show Mouse": true,
+        "Show CPS": true,
+        "Show Space": true,
+        "Line Space": true,
         "Rounded Size": 0.0,
         "Background Alpha": 90,
         "Size Box": 1.0
@@ -1196,17 +1184,17 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Range": 3.45,
+        "Range": 3.4,
         "Swing-Range": 4.5,
-        "Discover-Range": 5.35,
+        "Discover-Range": 5.25,
         "Fov": false,
         "FOV-Disttance": 180.0,
         "CPS": "",
         "1.9-Combat-Check": false,
         "CPS-Reduce": false,
         "Add-CPS": 1,
-        "MaxCPS": 14,
-        "MinCPS": 10,
+        "MaxCPS": 13,
+        "MinCPS": 9,
         "Target-Mode": "Single",
         "Priority": "Distance",
         "Switch-Delay": 1372,
@@ -1221,16 +1209,16 @@
         "Fix-Movement": "Off",
         "Always-Attack": true,
         "AutoBlock": "",
-        "Auto-Block": "WatchDogC",
-        "AutoBlockRange": 3.55,
+        "Auto-Block": "WatchDogB",
+        "AutoBlockRange": 3.5,
         "Rotation": "",
         "RotationMode": "Normal",
         "SilentRotation": true,
-        "MaxTurnSpeed": 45,
-        "MinTurnSpeed": 45,
+        "MaxTurnSpeed": 85,
+        "MinTurnSpeed": 85,
         "RotationReverse": false,
         "RotationReverseTick": 20,
-        "KeepDirection": true,
+        "KeepDirection": false,
         "KeepDirectionTick": 1,
         "RandomCenter": false,
         "RandomRange": 0.0,
@@ -1448,7 +1436,7 @@
       "values": {
         "Mode": "Vanilla",
         "OnlyKillAura": true,
-        "UpdatedNCP-SwapPacket": true
+        "UpdatedNCP-SwapPacket": false
       }
     },
     "NoSlowBreak": {
@@ -1510,7 +1498,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "Clip",
+        "Mode": "Skip",
         "Automatic-Offset": 4.0,
         "Automatic-PhaseDelay": 1000,
         "Automatic-FreezeMotion": true,
@@ -1533,7 +1521,7 @@
       }
     },
     "Reach": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1612,7 +1600,7 @@
         "Sprint": "BlocksMC",
         "CustomSprint": true,
         "CustomCancelSprintPacket": true,
-        "CustomMotion": false,
+        "CustomMotion": true,
         "CustomMotionSpeed": 0.8,
         "CustomMotion-SpeedEffect": false,
         "CustomMotionSpeed-SpeedEffect": 1.05,
@@ -1678,28 +1666,28 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Only-Weapon": true,
+        "Only-Weapon": false,
         "Mouse-Down": false,
         "AttackMode": "Legit",
         "Hitable": false,
         "SwingMode": "ClientSide",
-        "Blocking": "Fake",
+        "Blocking": "HurtTime",
         "WhileMoving": false,
         "Always-Block": false,
         "BypassTick": 15,
         "Time-Press": 0,
         "Switch-Target": false,
         "Scaffold-Check": true,
-        "Mark": false,
-        "MovementFix": false,
+        "Mark": true,
+        "MovementFix": true,
         "Switch-Delay": 140,
         "Reach": 3.0,
-        "SwingRange": 3.0,
-        "discover": 6.0,
+        "SwingRange": 3.73,
+        "discover": 5.26,
         "Block-Range": 6.0,
         "Fov": 180,
-        "Max-CPS": 20,
-        "Min-CPS": 15,
+        "Max-CPS": 12,
+        "Min-CPS": 8,
         "Rotation-Max-Speed": 60,
         "Rotation-Min-Speed": 60,
         "Random-Amount": 0.0
@@ -1765,11 +1753,11 @@
         "Mode": "BlocksMC",
         "Flag-Check": true,
         "StopForMS": 500,
-        "NoWater": false,
+        "NoWater": true,
         "Damage-Boost": false,
         "Custom-Boost": false,
         "Boost-Value": 0.1,
-        "GroundBoost": true,
+        "GroundBoost": false,
         "LowHop": false,
         "CustomSpeed": 0.8,
         "CustomDoLaunchSpeed": false,
@@ -1797,7 +1785,7 @@
         "CustomPressSpaceKeyInAir": false,
         "CustomUsePreMotion": true,
         "Boost": 0.38,
-        "NCP-DamageBoost": false,
+        "NCP-DamageBoost": true,
         "NCP-Timer": 1.0,
         "Normal-YMotion": 0.0,
         "Normal-Speed": 0.0,
@@ -1830,7 +1818,7 @@
         "Sneak": false,
         "Collide": false,
         "AllDirections": false,
-        "AllDirectionsBypass": "Rotate"
+        "AllDirectionsBypass": "None"
       }
     },
     "StaffChecker": {
@@ -1961,7 +1949,7 @@
         "RenderMode": "Circle",
         "LineWidth": 1.0,
         "RadiusMode": "Normal",
-        "Radius": 2.0,
+        "Radius": 1.86,
         "OnlyOnGround": false,
         "HoldSpace": false,
         "OnlySpeed": true,
@@ -1988,8 +1976,8 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Ticks": 3,
-        "CoolDown": 0
+        "Ticks": 1,
+        "CoolDown": 1000
       }
     },
     "Timer": {
@@ -2013,8 +2001,8 @@
       "values": {
         "Ticks": 10,
         "TimerBoost": 1.0,
-        "TimerCharged": 1.0,
-        "Range": 3.3,
+        "TimerCharged": 0.85,
+        "Range": 3.35,
         "CooldownTick": 10
       }
     },
@@ -2038,7 +2026,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Barriers": false,
+        "Barriers": true,
         "Entities": true
       }
     },
@@ -2099,5 +2087,13 @@
       "trigger": "TOGGLE",
       "values": {}
     }
+  },
+  "macros": {
+    "macros": [
+      {
+        "key": 35,
+        "command": ".invmanager drop"
+      }
+    ]
   }
 }
