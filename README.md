@@ -6,7 +6,7 @@ some config might not work / ban
 
 ## To do list
 
-update Crosssine config to b45 - now doing
+update Crosssine config to b46 - now doing
 
 update Slack config - wait for next update cuz the client seen like outdated
 
