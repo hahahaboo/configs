@@ -4,10 +4,10 @@
 
 #### version : 
 
-crosssine b44 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://crosssine.github.io/file/CrossSine-b44-UAFUB.jar)
+crosssine b44 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://github.com/shxp3/CrossSine/releases/download/B46/CrossSine-b46.jar)
 #### binds :
 
-Killaura/Keepsprint : V
+Killaura / Keepsprint : V
 
 Scaffold : Z
 
@@ -17,11 +17,9 @@ Speed : R
 
 Antivoid : F
 
-Stealer : H
+Stealer / Invmanager drop : H
 
-Phase : G
-
-Tickbase : B
+Noslow : N
 
 #### note : 
 
@@ -29,21 +27,8 @@ bind Keepsprint and Killaura together
 
 Killaura sometimes silent flag
 
-speed sometimes flag
+Killaura autoblock sometimes not blocking
 
-sneak when using phase
+Speed sometimes flag
 
-only killaura rotation mode is different from **crosssine/blocksmc2** you can choose which you want
-
-## crosssine/blocksmc2 : 
-
-#### version : 
-
-crosssine b44 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://crosssine.github.io/file/CrossSine-b44-UAFUB.jar)
-#### binds :
-
-same as **crosssine/blocksmc**
-
-#### note : 
-
-only killaura rotation mode is different from **crosssine/blocksmc** you can choose which you want
+disable Noslow when using bow
