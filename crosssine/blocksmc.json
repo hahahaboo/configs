@@ -1,12 +1,4 @@
 {
-  "macros": {
-    "macros": [
-      {
-        "key": 35,
-        "command": ".invmanager drop"
-      }
-    ]
-  },
   "modules": {
     "AimAssist": {
       "state": false,
@@ -17,10 +9,10 @@
       "values": {
         "Range": 6.82,
         "Mode": "Center",
-        "Horizontal-Speed": 1.0,
-        "Horizontal-CompliSpeed": 1.0,
-        "Vertical-Speed": 1.0,
-        "Vertical-CompliSpeed": 1.0,
+        "Horizontal-Speed": 53.06,
+        "Horizontal-CompliSpeed": 42.31,
+        "Vertical-Speed": 49.21,
+        "Vertical-CompliSpeed": 43.69,
         "FOV": 180.0,
         "FaceCheck": false,
         "MouseDown": true,
@@ -61,7 +53,7 @@
       }
     },
     "AntiBot": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": false,
       "autodisable": "NONE",
@@ -305,9 +297,9 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "LagMode": "LagSize",
-        "Ping-MS": 98,
-        "NextDelay-MS": 500,
+        "LagMode": "LegitReach",
+        "Ping-MS": 197,
+        "NextDelay-MS": 5000,
         "MaxDistance": 5.0,
         "MinDistance": 3.0,
         "Size": 7,
@@ -724,9 +716,9 @@
       "trigger": "TOGGLE",
       "values": {
         "Mode": "Dynamic",
-        "FreezeMS": 295,
+        "FreezeMS": 350,
         "Range-Max": 5.25,
-        "Range-Min": 3.25
+        "Range-Min": 1.35
       }
     },
     "FastBreak": {
@@ -893,7 +885,7 @@
     },
     "FreeLook": {
       "state": false,
-      "keybind": 0,
+      "keybind": 25,
       "array": true,
       "autodisable": "NONE",
       "trigger": "PRESS",
@@ -952,26 +944,6 @@
       "trigger": "TOGGLE",
       "values": {
         "Delay": 5
-      }
-    },
-    "HackerDetector": {
-      "state": false,
-      "keybind": 0,
-      "array": true,
-      "autodisable": "NONE",
-      "trigger": "TOGGLE",
-      "values": {
-        "Warning": true,
-        "WarningVL": 20,
-        "Alert": true,
-        "Debug": true,
-        "AutoBlock": true,
-        "Reach": true,
-        "Velocity": true,
-        "NoSlow": true,
-        "Scaffold": true,
-        "Rotation": true,
-        "Check-Name": false
       }
     },
     "HighJump": {
@@ -1236,8 +1208,8 @@
         "RotationMode": "Normal",
         "SpinRotation": false,
         "SilentRotation": true,
-        "MaxTurnSpeed": 75,
-        "MinTurnSpeed": 75,
+        "MaxTurnSpeed": 80,
+        "MinTurnSpeed": 80,
         "RotationReverse": false,
         "RotationReverseTick": 20,
         "KeepDirection": false,
@@ -1451,7 +1423,7 @@
     },
     "NoSlow": {
       "state": true,
-      "keybind": 49,
+      "keybind": 48,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
@@ -1744,7 +1716,7 @@
     },
     "Spammer": {
       "state": false,
-      "keybind": 0,
+      "keybind": 25,
       "array": true,
       "autodisable": "NONE",
       "trigger": "PRESS",
@@ -2104,5 +2076,13 @@
         "ZoomKey": 46
       }
     }
+  },
+  "macros": {
+    "macros": [
+      {
+        "key": 35,
+        "command": ".invmanager drop"
+      }
+    ]
   }
 }
