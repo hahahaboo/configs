@@ -1611,26 +1611,26 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Rotations": "Normal",
+        "Rotations": "Stabilized",
         "TowerMode": "BlocksMC",
         "Speed": 1.0,
         "Speed-Diagonally": 1.0,
         "PlaceEvent": "GameTick",
         "AutoBlock": "Spoof",
-        "BiggestStack": false,
+        "BiggestStack": true,
         "BiggestStackSwitchTick": true,
         "SwitchPlaceTick": 1,
         "Sprint": "BlocksMC",
         "BlocksMC-LowHop": false,
         "CustomSprint": true,
-        "CustomCancelSprintPacket": true,
+        "CustomCancelSprintPacket": false,
         "CustomMotion": true,
-        "CustomMotionSpeed": 0.78,
+        "CustomMotionSpeed": 1.0,
         "CustomMotion-SpeedEffect": false,
         "CustomMotionSpeed-SpeedEffect": 1.05,
         "CustomStrafe": false,
         "CustomStrafeSpeed": 0.3,
-        "BridgeMode": "AutoJump",
+        "BridgeMode": "Andromeda",
         "WaitRotation": false,
         "TellyTicks": 1,
         "SameY-OnlySpeed": true,
@@ -1641,7 +1641,7 @@
         "Downward": false,
         "SafeWalk": false,
         "Zitter": false,
-        "RotationSpeed": true,
+        "RotationSpeed": false,
         "MaxRotationSpeed": 80,
         "MinRotationSpeed": 80,
         "MaxPlaceDelay": 0,
@@ -2105,7 +2105,7 @@
       },
       {
         "key": 49,
-        "command": ".config load blocksmc_andromeda"
+        "command": ".config load blocksmc"
       }
     ]
   }
