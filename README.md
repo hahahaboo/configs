@@ -13,5 +13,3 @@ make Moonlight config - wait for next update cuz the client seen like outdated
 finish Cryptix config - now doing
 
 finish Luv config
-
-try CryptixProMax client (the client skid form Cryptix)
