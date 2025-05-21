@@ -4,7 +4,7 @@
 
 #### version : 
 
-crosssine b46 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://github.com/shxp3/CrossSine/releases/download/B46/CrossSine-b46.jar)
+crosssine b47 / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://github.com/shxp3/CrossSine/releases/download/B47/CrossSine-b47.jar)
 #### binds :
 
 Killaura / Keepsprint / autoitem : V
@@ -21,51 +21,16 @@ Stealer / Invmanager drop : H
 
 Noslow : B
 
-Andromeda bridge : N
-
 #### note : 
 
 need bind Keepsprint and Killaura together
 
-Killaura sometimes silent flag
+Killaura sometimes makes flags because 6 blocks reach
 
 Killaura autoblock sometimes not blocking
 
-Speed sometimes flag
+Speed sometimes flags
 
-disable Noslow when using bow
-
-## crosssine/blocksmc_andromeda : 
-
-#### version : 
-
-crosssine b46 (latest beta) / [website](https://crosssine.github.io/) / [discord](https://discord.gg/E4AbJZsaXq) / [github](https://github.com/shxp3/CrossSine) / [download](https://github.com/shxp3/CrossSine/releases/download/B46/CrossSine-b46.jar)
-#### binds :
-
-Killaura / Keepsprint / autoitem : V
-
-Scaffold : Z
-
-Bedaura : X
-
-Speed : R
-
-Antivoid : F
-
-Stealer / Invmanager drop : H
-
-Noslow : B
-
-Autojump bridge : N
-
-#### note : 
-
-need bind Keepsprint and Killaura together
-
-Killaura sometimes silent flag
-
-Killaura autoblock sometimes not blocking
-
-Speed sometimes flag
+Towermove usually flags
 
 disable Noslow when using bow
