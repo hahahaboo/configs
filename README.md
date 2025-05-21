@@ -6,10 +6,8 @@ if any config made you got ac ban pls dm me on discord (Username : found_data)
 
 ## To do list
 
-finish FDP config - im lazy on this
+improve Crosssine config - need a long time i think so i will do the next at same time
 
-make Moonlight config - wait for next update cuz the client seen like outdated
+finish Cryptix config - now doing too
 
-finish Cryptix config - now doing
-
-finish Luv config
+nothing else...
