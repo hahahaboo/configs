@@ -17,11 +17,11 @@ Speed : R
 
 Antivoid : F
 
-Stealer / Invmanager drop : H
+Stealer / Invmanager-drop : H
 
 Noslow : B
 
-Killaura always-attack : G
+Killaura-alwaysattack : G
 
 #### note : 
 
