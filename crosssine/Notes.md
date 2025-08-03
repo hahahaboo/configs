@@ -21,16 +21,26 @@ Stealer / Invmanager drop : H
 
 Noslow : B
 
+Killaura always-attack : G
+
 #### note : 
 
-need bind Keepsprint and Killaura together
+need bind Keepsprint and Killaura together -> no keepsprint
 
-Killaura sometimes makes flags because 6 blocks reach
+Killaura sometimes ghost hit because of 6 blocks reach
 
-Killaura autoblock sometimes not blocking
+Speed sometimes flags -> uncp survivalfly detected
 
-Speed sometimes flags
+disable Noslow when using bow -> bow cannot shoot (uncp instentbow detected)
 
-Towermove usually flags
+Fastuse need work with Disabler
 
-disable Noslow when using bow
+dont jump at Fastuse -> verus flyD detected
+
+need disable Sprint-alldirections when Speed enabled -> flags on backward (uncp survivalfly detected)
+
+only enable Killaura-alwaysattack when HvH
+
+cannot place blocks while sneaking because of Disabler stuck packet
+
+Nofall only bypass about 20 blocks -> verus flyL/flyK detected
