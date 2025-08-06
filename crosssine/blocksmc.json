@@ -1141,9 +1141,9 @@
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
       "values": {
-        "Forward": 0.98,
-        "Strafe": 0.98,
-        "BothMotion": 0.98,
+        "Forward": 0.99,
+        "Strafe": 0.99,
+        "BothMotion": 0.99,
         "Mode": "Both"
       }
     },
@@ -1156,7 +1156,7 @@
       "values": {
         "Range": 6.15,
         "Swing-Range": 6.2,
-        "Discover-Range": 6.75,
+        "Discover-Range": 6.8,
         "Fov": false,
         "FOV-Disttance": 180.0,
         "CPS": {
@@ -1889,7 +1889,7 @@
         "Mob": true,
         "Invisible": true,
         "Dead": false,
-        "NoFriend": true
+        "NoFriend": false
       }
     },
     "TargetStrafe": {
@@ -2015,7 +2015,7 @@
       }
     },
     "WorldTime": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
